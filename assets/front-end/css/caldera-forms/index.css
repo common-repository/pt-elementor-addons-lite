@@ -1,0 +1,30 @@
+ .pt-cfforms-container input, .pt-cfforms-container textarea {
+     height: auto;
+     padding: 10px;
+}
+ .pt-cfforms-align-center .pt-cfforms-container, .pt-cfforms-btn-align-center .pt-cfforms-container input.btn-default {
+     margin-left: auto !important;
+     margin-right: auto !important;
+     display: block;
+     float: none;
+}
+ .pt-cfforms-align-left .pt-cfforms-container, .pt-cfforms-btn-align-left .pt-cfforms-container input.btn-default {
+     float: left;
+     width: auto;
+}
+ .pt-cfforms-align-right .pt-cfforms-container, .pt-cfforms-btn-align-right .pt-cfforms-container input.btn-default {
+     float: right;
+     width: auto;
+}
+ .pt-cfforms-container textarea, .pt-cfforms-container input[type="text"], .pt-cfforms-container input[type="tel"], .pt-cfforms-container input[type="password"], .pt-cfforms-container input[type="datetime"], .pt-cfforms-container input[type="datetime-local"], .pt-cfforms-container input[type="date"], .pt-cfforms-container input[type="month"], .pt-cfforms-container input[type="time"], .pt-cfforms-container input[type="week"], .pt-cfforms-container input[type="number"], .pt-cfforms-container input[type="email"], .pt-cfforms-container input[type="url"], .pt-cfforms-container input[type="search"], .pt-cfforms-container input[type="tel"], .pt-cfforms-container input[type="color"], .pt-cfforms-container .uneditable-input {
+     -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+     transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+ .pt-cfforms-container .wpcf-form::before, .pt-cfforms-container .wpcf-form::after {
+     content: " ";
+     clear: both;
+     display: table;
+}
+ .pt-cfforms-container .wpcf-response-output {
+     clear: both;
+}

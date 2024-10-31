@@ -1,0 +1,171 @@
+/*
+Info Circle CSS
+*/
+
+.pt-module-content.pt-info-circle-wrap.on-hover {
+    text-align: center;
+    display: block;
+}
+
+.pt-info-circle-wrap {
+margin: auto;
+width: 73%;
+height: 500px;
+max-width: 100%;
+position: relative;
+box-sizing: border-box;
+}
+.pt-info-circle-in {
+width: 60%;
+height: 60%;
+left: 50%;
+top: 50%;
+overflow: hidden;
+display: none;
+}
+.active .pt-info-circle-in {
+display: block;
+}
+.pt-info-circle-icon-content .pt-info-circle-content {
+z-index: 1;
+}
+.pt-info-circle-wrap .pt-info-circle-content {
+position: absolute;
+left: 50%;
+-webkit-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+top: 50%;
+text-align: center;
+width: 100%;
+-webkit-transition: inherit;
+transition: inherit;
+}
+.pt-info-circle-wrap .pt-info-circle-desc p:last-of-type {
+margin-bottom: 0;
+}
+.pt-module-content .pt-text-editor *:not(a) {
+color: inherit;
+}
+.pt-module-content .pt-text-editor *:not(i) {
+font-family: inherit;
+}
+.pt-module-content .pt-text-editor *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+font-size: inherit;
+line-height: inherit;
+}
+.pt-module-content .pt-text-editor *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(strong):not(b) {
+font-weight: inherit;
+}
+.pt-info-circle-wrap .pt-info-circle,
+.pt-info-circle-wrap:before {
+border-radius: 50%;
+position: absolute;
+-webkit-transform: translateX(-50%) translateY(-50%);
+-ms-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+}
+.pt-info-circle-wrap .pt-info-circle-out {
+width: 80%;
+height: 80%;
+left: 50%;
+top: 50%;
+}
+.pt-info-circle-wrap:before {
+content: ' ';
+width: calc(80% + 1px);
+height: calc(80% + 1px);
+left: 50%;
+top: 50%;
+z-index: 1;
+position: absolute;
+pointer-events: none;
+}
+/* After Implementation */
+.pt-info-circle .pt-imgicon-wrap {
+display: block;
+height: 100%;
+position: relative;
+}
+.pt-info-circle .pt-icon-wrap {
+border-radius: 50%;
+}
+.pt-info-circle-wrap .pt-image-infoC .pt-photo-img,
+.pt-info-circle-wrap .pt-icon-wrap i,
+.pt-info-circle-wrap .pt-icon-wrap i:before {
+-webkit-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+box-sizing: content-box;
+}
+.pt-info-circle .pt-imgicon-wrap .pt-photo-img {
+max-width: none;
+}
+.pt-info-circle-small {
+z-index: 2;
+}
+/* grayscale */
+.pt-info-circle-wrap .active .pt-info-circle-small.grayscale {
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-filter: gray;
+	filter: gray;
+}
+/* Change Image Style */
+.change-img .pt-imgicon-wrap:last-child,
+.active .change-img .pt-imgicon-wrap:first-child {
+display: none;
+}
+.active .change-img .pt-imgicon-wrap:last-child {
+display: block;
+}
+.pt-info-circle-wrap::before {
+border: 1px solid #428bca;
+}
+.pt-image-crop-circle .pt-image-content .thumbnail-avatar-rounded,.pt-circle-1 .pt-icon-wrap .pt-icon .thumbnail-avatar-rounded {
+border-radius:50%;
+}
+.pt-icon-wrap .pt-icon i,
+.pt-icon-wrap .pt-icon i::before {
+text-align: center;
+}
+.pt-info-circle-desc.pt-text-editor {
+margin-bottom: 10px;
+}
+.pt-info-circle-cta .pt-infoc-link {
+padding: 10px;
+}
+
+
+@media screen and (max-width: 767px) {
+	
+	.pt-info-circle-wrap {
+		height: 700px !important;
+		width: 100%;
+	}
+		
+	
+}
+@media screen and (max-width: 600px) {
+	
+	.pt-info-circle-wrap {
+		height: 550px !important;
+		width: 100%;
+	}
+		
+	
+}
+@media screen and (max-width: 500px) {
+	
+	.pt-info-circle-wrap {
+		height: 550px !important;
+		width: 100%;
+	}
+	.pt-image-content img {
+		width: 60px !important;
+		height: 60px !important;
+	}
+		
+	
+}

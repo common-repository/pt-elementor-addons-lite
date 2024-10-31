@@ -1,0 +1,257 @@
+/* ------------------------------ Testimonials Slider ------------------------------------- */
+
+.pt-testimonials-slider {
+  clear: both;
+  position: relative;
+}
+.pt-testimonials-slider.pt-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.pt-testimonials-slider .pt-testimonial-text {
+    text-align: center;
+    max-width: 750px;
+    padding:10px;
+    font-size: 18px;
+    line-height: 32px;
+    font-style: italic;
+    color: #666;
+}
+.pt-dark-bg .pt-testimonials-slider .pt-testimonial-text {
+	color: #ccc; 
+}
+.pt-testimonials-slider .pt-testimonial-text i {
+	color: #ccc;
+	font-size: 32px;
+	display: block;
+	margin-bottom: 35px;
+	background: none;
+	width: auto;
+	height: auto; 
+}
+.pt-dark-bg .pt-testimonials-slider .pt-testimonial-text i {
+	color: #ddd;
+}
+.pt-testimonials-slider .pt-testimonial-user {
+    display: table;
+    margin: 0 auto;
+}
+/*
+.pt-align-unset .pt-image-wrapper img {
+	margin: unset !important;
+}
+.pt-testimonials-slider .pt-align-unset .pt-testimonial-text {
+	text-align:unset;
+}
+*/
+.pt-testimonials-slider .pt-align-left .pt-image-wrapper {
+    float: left;
+    margin-right: 10px;
+    max-width: 150px;
+    width: 20%;
+	margin-top:10px;
+}
+.pt-testimonials-slider .pt-align-right .pt-image-wrapper {
+    float: right;
+    margin-right: 10px;
+    max-width: 150px;
+    width: 20%;
+	margin-top:10px;
+}
+.pt-testimonials-slider .pt-align-left .pt-testimonial-text {
+	text-align:left;
+	overflow:hidden;
+}
+.pt-testimonials-slider .pt-align-right .pt-testimonial-text {
+	text-align:right;
+	overflow:hidden;
+}
+.pt-testimonials-slider .pt-testimonial-user .pt-image-wrapper img {
+	max-width: 64px;
+	border-radius: 50%;
+	margin-right: 15px;
+	margin:0 auto;
+}
+.pt-testimonials-slider .pt-testimonial-user .pt-text {
+	vertical-align: middle;
+	color: #888; 
+}
+.pt-dark-bg .pt-testimonials-slider .pt-testimonial-user .pt-text {
+    color: #909090; 
+}
+.pt-testimonials-slider .pt-testimonial-user .pt-text .pt-author-name {
+	line-height: 26px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: #333;
+	text-transform: uppercase;
+	clear: none;
+	margin-top: 0;
+	margin-bottom: 10px;
+	line-height: 24px;
+	margin-bottom: 5px; 
+}
+.pt-dark-bg .pt-testimonials-slider .pt-testimonial-user .pt-text .pt-author-name {
+	color: #e5e5e5; 
+}
+
+/* --------------- Custom Styles -------------- */
+.pt-container .pt-thumbnailslider.pt-flexslider {
+	margin-top: 15px; 
+}
+.pt-container .pt-thumbnailslider.pt-flexslider .pt-slide {
+    margin: 0 5px 0 0; 
+}
+.pt-container .pt-thumbnailslider.pt-flexslider .pt-slide img {
+	display: block;
+	opacity: .5;
+	cursor: pointer; 
+}
+.pt-container .pt-thumbnailslider.pt-flexslider .pt-slide img:hover {
+	opacity: 1; 
+}
+.pt-container .pt-thumbnailslider.pt-flexslider .pt-slide.pt-flex-active-slide img {
+	opacity: 1;
+	cursor: default; 
+}
+.pt-container .pt-flex-direction-nav {
+	padding: 0 !important;
+	margin: 0 !important; 
+}
+.pt-container .pt-flex-direction-nav li {
+	position: initial; 
+}
+.pt-container .pt-flex-direction-nav a, 
+.pt-container .pt-flex-direction-nav a:hover {
+	opacity: 1;
+	text-shadow: none;
+	background: none;
+	color: #888;
+	font-family: 'pt-icomoon-1' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 24px;
+	width: 28px;
+	height: 28px;
+	margin: -14px 0 0;
+	bottom: initial;
+	left: initial;
+	right: initial;
+	top: 50%;
+	text-indent: 0;
+	text-align: center;
+	color: #aaa;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	outline: none; 
+}
+.pt-container .pt-flex-direction-nav a:before, 
+.pt-container .pt-flex-direction-nav a:hover:before {
+    margin: 2px;
+    vertical-align: middle;
+    display: inline;
+    font-family: inherit !important;
+    opacity: 1; 
+}
+.pt-dark-bg .pt-container .pt-flex-direction-nav a,
+.pt-dark-bg .pt-container .pt-flex-direction-nav a:hover {
+	color: #888; 
+}
+.pt-dark-bg .pt-container .pt-flex-direction-nav a:hover, 
+.pt-dark-bg .pt-container .pt-flex-direction-nav a:hover:hover {
+	color: #aaa; 
+}
+@media only screen and (max-width: 960px) {
+.pt-container .pt-flex-direction-nav a, .pt-container .pt-flex-direction-nav a:hover {
+`	display: none;
+} 
+}
+.pt-container .pt-flex-direction-nav a.pt-flex-prev {
+	left: -30px; 
+}
+.pt-container .pt-flex-direction-nav a.pt-flex-prev:before {
+    content: "\e900";
+	font-family: 'pt-icomoon' !important;
+}
+.pt-container .pt-flex-direction-nav a.pt-flex-next {
+	right: -30px; 
+}
+.pt-container .pt-flex-direction-nav a.pt-flex-next:before {
+    content: "\e901"; 
+	font-family: 'pt-icomoon' !important;
+}
+.pt-container .pt-flex-control-nav {
+	width: 100%;
+	position: absolute;
+	bottom: -40px;
+	text-align: center;
+	padding: 0 !important;
+	margin: 0 !important; 
+}
+.pt-container .pt-flex-control-nav li,
+.pt-container .pt-flex-control-nav li:hover {
+	margin: 0 8px 0 0;
+	padding: 0;
+	border: none;
+	box-shadow: none; 
+}
+.pt-container .pt-flex-control-nav li a, 
+.pt-container .pt-flex-control-nav li a:hover {
+    background: #aaa;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    box-shadow: none;
+    -webkit-transition: all 0.2s ease-in 0s;
+    -moz-transition: all 0.2s ease-in 0s;
+    -ms-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+    display: inline-block;
+    vertical-align: middle;
+    outline: none; 
+}
+.pt-dark-bg .pt-container .pt-flex-control-nav li a, 
+.pt-dark-bg .pt-container .pt-flex-control-nav li a:hover {
+	background: #ccc;
+	border-color: #ccc; 
+}
+.pt-container .pt-flex-control-nav li a.pt-flex-active, 
+.pt-container .pt-flex-control-nav li a:hover.pt-flex-active, 
+.pt-container .pt-flex-control-nav li a:hover {
+	background: none; 
+}
+.pt-container .pt-flex-control-nav li a.pt-flex-active, 
+.pt-container .pt-flex-control-nav li a:hover.pt-flex-active {
+	width: 14px;
+	height: 14px; 
+}
+.pt-container .pt-flex-control-thumbs {
+	bottom: -120px; 
+}
+@media only screen and (max-width: 600px) {
+	.pt-container .pt-flex-control-thumbs {
+		bottom: -80px; 
+	 }
+}
+.pt-container .pt-flex-control-thumbs li {
+	width: auto;
+	float: none; 
+}
+.pt-container .pt-flex-control-thumbs li img {
+	max-width: 100%;
+	width: 150px; 
+}
+@media only screen and (max-width: 600px) {
+	.pt-container .pt-flex-control-thumbs li img {
+		width: 100px; 
+	} 
+}

@@ -1,0 +1,118 @@
+/**
+ * Smart Box Css.
+ **/
+
+.pt-smart-box-section ul li {
+    list-style-type: initial !important;
+	margin-left:5px;
+}
+
+.pt-smart-box-section .pt-title {
+ margin: 5px 0; }
+.pt-smart-box-section .pt-description {
+ line-height: 25px; }
+.pt-smart-box-section .elementor-size-small {
+ font-size: 15px; }
+.pt-smart-box-section  .elementor-size-medium {
+ font-size: 19px; }
+.pt-smart-box-section  .elementor-size-large {
+ font-size: 29px; }
+.pt-smart-box-section  .elementor-size-xl {
+ font-size: 39px; }
+.pt-smart-box-section  .elementor-size-xxl {
+ font-size: 59px; }
+.pt-smart-box-section .pt-heading-separator {
+ border-top: 1px solid #428bca;
+ display: inline-block;
+ width: 30%;
+}
+.pt-smart-box-section.to-center
+{
+ overflow: hidden;
+ padding: 20px;
+}
+.pt-smart-box-section .pt-description > p {
+ margin: 10px 0;
+}
+.smart-box-detail-style1 .pt-image {
+ float: left;
+ padding: 20px 10px;
+ width: 40%;
+}
+.smart-box-detail-style1 .pt-description {
+ float: left;
+ padding: 5px 10px 20px;
+ width: 60%;
+}
+.smart-box-detail-style2 .pt-image {
+ float: right;
+ padding: 20px 10px;
+ width: 40%;
+}
+.smart-box-detail-style2 .pt-description {
+ float: left;
+ padding: 5px 10px 20px;
+ width: 60%;
+}
+@media only screen and (max-width: 768px) {
+.smart-box-detail-style1 .pt-image,
+.smart-box-detail-style1 .pt-description,
+.smart-box-detail-style2 .pt-image,
+.smart-box-detail-style2 .pt-description {
+ width: 100%;
+ float:none;
+ text-align: center;
+}
+}
+/* style 3*/
+/* .style4-text4{
+	width: 50%;
+    float: left;
+}
+._style4,
+.pt-image{
+	width: 50%;
+    float: left;
+}
+.style5-text5{
+	width: 50%;
+    float: right;
+}
+._style5,
+.pt-image{
+	width: 50%;
+    float: right;
+} */
+@media only screen and (max-width: 767px) {
+	
+	.pt-title .heading-title {
+		text-align: center !important;
+	}
+	
+	.pt-smart-box-section {
+		text-align: center !important;
+	}
+	.style4-text4{
+		width: 100%;
+		float: none;
+	}
+	._style4,
+	.pt-image{
+		width: 100%;
+		float: none;
+	}
+	.style5-text5{
+		width: 100%;
+		float: none;
+	}
+	._style5,
+	.pt-image{
+		width: 100%;
+		float: none;
+	}
+	.style4-text4 ,.style5-text5{
+		width: 100%;
+		float: none;
+	}
+	
+}

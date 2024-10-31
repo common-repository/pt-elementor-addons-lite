@@ -1,0 +1,230 @@
+.pt-modal-box-button-selector,
+.pt-modal-box-modal-lower-close{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+.pt-btn-md {
+  padding: 8px 14px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.pt-btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+.pt-btn-block {
+  display: block;
+  width: 100%;
+}
+.pt-modal-box-modal-close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+}
+.pt-modal-box-modal-close:hover, .pt-modal-box-modal-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+button.pt-modal-box-modal-close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0
+}
+.pt-modal-box-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    display: none;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    padding: 0 !important;
+   	
+}
+
+.pt-modal-box-modal .pt-modal-box-modal-dialog {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%) !important;
+    transform: translate(-50%,-50%) !important;
+    margin: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.pt-modal-box-modal-content {
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5)
+}
+.pt-modal-backdrop.pt-in {
+    filter: alpha(opacity=50);
+    opacity: .5 !important;
+}
+.pt-modal-fade.pt-in {
+    opacity: 1;
+	background-color: #1313137a;
+}
+.pt-modal-backdrop {
+/*     position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #000; */
+	position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: left;
+    z-index: 99;
+}
+.pt-modal-backdrop.pt-modal-fade {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.pt-modal-fade {
+    opacity: 0;
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
+.pt-modal-box-modal.pt-in .pt-modal-box-modal-dialog {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    top: 50%;
+}
+.pt-modal-box-modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5
+}
+.pt-modal-box-modal-header .pt-modal-box-modal-close {
+    margin-top: -2px
+}
+.pt-modal-box-modal-header .pt-modal-box-modal-title {
+    margin: 0;
+    padding: 0;
+    line-height: 1.42857143;
+    clear: none;
+    padding: 0;
+    margin: 0;
+}
+.pt-modal-box-modal-body {
+    position: relative;
+    padding: 15px
+}
+.pt-modal-box-modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5
+}
+.pt-modal-box-modal-footer .btn + .btn {
+    margin-bottom: 0;
+    margin-left: 5px
+}
+.pt-modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll;
+}
+.pt-modal-box-text-selector {
+    background: none !important;
+}
+@media (min-width:768px) {
+    .pt-modal-box-modal-dialog {
+        width: 600px;
+    }
+    .pt-modal-box-modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5)
+    }
+}
+@media (max-width:767px) {
+.pt-modal-box-modal-dialog {
+    width: 97%;
+}
+}
+.pt-modal-box-container {
+    width: 100% !important;
+}
+/*Open Modal Button Style*/
+.pt-modal-box-selector-container .btn-info {
+    border: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+/*Open Modal Img, Span Style */
+.pt-modal-box-selector-container img,
+.pt-modal-box-selector-container span{
+    cursor: pointer;
+}
+/*Image on Modal Header Style*/
+.pt-modal-box-modal-header img {
+    width: 48px;
+    padding: 5px 0;
+    vertical-align: top;
+}
+/*Icon On Modal Header Style*/
+.pt-modal-box-modal-header i {
+    padding-right: 6px;
+}
+/*Image On Modal Header Style*/
+.pt-modal-box-modal-title img {
+    vertical-align : middle;
+}
+/*Close Button Container Style*/
+.pt-modal-box-close-button-container {
+    float: right;
+}
+.pt-modal-box-modal-close {
+    position: relative;
+    z-index: 99;
+}
+.pt-modal-box-img-selector,
+.pt-modal-box-text-selector,
+.pt-modal-box-close-button-container,
+.pt-modal-box-modal-close,
+.pt-modal-box-modal-lower-close{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}

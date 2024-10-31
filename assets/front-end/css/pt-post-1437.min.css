@@ -1,0 +1,410 @@
+.ast-single-post .entry-content a,
+.ast-comment-content a:not(.ast-comment-edit-reply-wrap a) {
+    text-decoration: none !important;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: " ";
+    display: table;
+    clear: both
+}
+
+.pt-logo-carousel.nav-top-left,
+.pt-logo-carousel.nav-top-right,
+.pt-post-carousel.nav-top-left,
+.pt-post-carousel.nav-top-right,
+.pt-product-carousel.nav-top-left,
+.pt-product-carousel.nav-top-right,
+.pt-team-slider.nav-top-left,
+.pt-team-slider.nav-top-right,
+.pt-testimonial-slider.nav-top-left,
+.pt-testimonial-slider.nav-top-right {
+    padding-top: 40px
+}
+
+.swiper-container .swiper-slide,
+.swiper-container-wrap .swiper-slide {
+    text-align: center
+}
+
+.swiper-container .swiper-slide img,
+.swiper-container-wrap .swiper-slide img {
+    width: auto
+}
+
+.swiper-container-dots-outside .swiper-pagination,
+.swiper-container-wrap-dots-outside .swiper-pagination {
+    position: static
+}
+
+.swiper-container .swiper-button-next,
+.swiper-container .swiper-button-prev,
+.swiper-container-wrap .swiper-button-next,
+.swiper-container-wrap .swiper-button-prev {
+    background: 0 0;
+    font-size: 20px;
+    height: auto;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: auto
+}
+
+.swiper-container .swiper-button-next .fa,
+.swiper-container .swiper-button-prev .fa,
+.swiper-container-wrap .swiper-button-next .fa,
+.swiper-container-wrap .swiper-button-prev .fa {
+    vertical-align: top
+}
+
+.swiper-container-wrap .swiper-pagination {
+    bottom: 10px;
+    left: 0;
+    width: 100%
+}
+
+.swiper-container-wrap-dots-outside .swiper-pagination {
+    position: static
+}
+
+.swiper-container-wrap .swiper-pagination-bullet {
+    background: #ccc;
+    margin: 0 4px;
+    opacity: 1;
+    height: 8px;
+    width: 8px
+}
+
+.swiper-container-wrap .swiper-pagination-bullet-active {
+    background: #000
+}
+
+.swiper-container-3d .swiper-slide {
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-property: all
+}
+
+.pt-contact-form input[type=date],
+.pt-contact-form input[type=email],
+.pt-contact-form input[type=number],
+.pt-contact-form input[type=tel],
+.pt-contact-form input[type=text],
+.pt-contact-form input[type=url],
+.pt-contact-form textarea {
+    background: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    float: none;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    width: 100%
+}
+
+.pt-contact-form input[type=submit] {
+    border: 0;
+    float: none;
+    height: auto;
+    margin: 0;
+    padding: 10px 20px;
+    width: auto;
+    -webkit-transition: all .25s linear 0s;
+    -o-transition: all .25s linear 0s;
+    transition: all .25s linear 0s
+}
+
+.pt-contact-form.placeholder-hide input::-webkit-input-placeholder,
+.pt-contact-form.placeholder-hide textarea::-webkit-input-placeholder {
+    opacity: 0;
+    visibility: hidden
+}
+
+.pt-contact-form.placeholder-hide input::-moz-placeholder,
+.pt-contact-form.placeholder-hide textarea::-moz-placeholder {
+    opacity: 0;
+    visibility: hidden
+}
+
+.pt-contact-form.placeholder-hide input:-ms-input-placeholder,
+.pt-contact-form.placeholder-hide textarea:-ms-input-placeholder {
+    opacity: 0;
+    visibility: hidden
+}
+
+.pt-contact-form.placeholder-hide input:-moz-placeholder,
+.pt-contact-form.placeholder-hide textarea:-moz-placeholder {
+    opacity: 0;
+    visibility: hidden
+}
+
+.pt-custom-radio-checkbox input[type=checkbox],
+.pt-custom-radio-checkbox input[type=radio] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-style: solid;
+    border-width: 0;
+    outline: 0;
+    min-width: 1px;
+    width: 15px;
+    height: 15px;
+    background: #ddd;
+    padding: 3px
+}
+
+.pt-custom-radio-checkbox input[type=checkbox]:before,
+.pt-custom-radio-checkbox input[type=radio]:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block
+}
+
+.pt-custom-radio-checkbox input[type=checkbox]:checked:before,
+.pt-custom-radio-checkbox input[type=radio]:checked:before {
+    background: #999;
+    -webkit-transition: all .25s linear 0s;
+    -o-transition: all .25s linear 0s;
+    transition: all .25s linear 0s
+}
+
+.pt-custom-radio-checkbox input[type=radio] {
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+
+.pt-custom-radio-checkbox input[type=radio]:before {
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+
+.pt-offcanvas-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    visibility: hidden;
+    width: 300px;
+    height: 100%;
+    overflow-y: auto;
+    background: #fff;
+    transition: all 0.5s;
+}
+
+.pt-offcanvas-content.pt-offcanvas-slide {
+    transform: translate3d(-100%, 0, 0);
+}
+
+.pt-offcanvas-content-slide.pt-offcanvas-content-open .pt-offcanvas-content.pt-offcanvas-content-visible {
+    visibility: visible;
+    transform: translate3d(0, 0, 0);
+}
+
+.pt-offcanvas-content .pt-offcanvas-close {
+    position: relative;
+    cursor: pointer;
+    float: right;
+    top: 20px;
+    right: 20px;
+    line-height: 1;
+    z-index: 1;
+    font-style: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+html.pt-offcanvas-content-widget,
+html.pt-offcanvas-content-widget body {
+    height: 100%;
+}
+
+.pt-offcanvas-content-reset {
+    margin-top: 0 !important;
+}
+
+.pt-offcanvas-toggle {
+    cursor: pointer;
+}
+
+.pt-offcanvas-container {
+    position: relative;
+    left: 0;
+    z-index: 99;
+    height: 100%;
+    transition: transform 0.5s;
+}
+
+.pt-offcanvas-container:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+}
+
+.pt-offcanvas-content-open {
+    overflow: hidden;
+}
+
+.pt-offcanvas-content-open .pt-offcanvas-container:after {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 0.5s;
+    z-index: 100001;
+}
+
+.pt-offcanvas-content.pt-offcanvas-content-right {
+    left: auto;
+    right: 0;
+}
+
+.pt-offcanvas-content .pt-offcanvas-header {
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+
+.pt-offcanvas-content .pt-offcanvas-close {
+    position: relative;
+    cursor: pointer;
+    float: right;
+    top: 20px;
+    right: 20px;
+    line-height: 1;
+    z-index: 1;
+    font-style: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.pt-offcanvas-content .pt-offcanvas-body {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.pt-offcanvas-toggle-wrap .pt-offcanvas-toggle {
+    display: inline-flex;
+}
+
+.pt-offcanvas-icon-before .pt-offcanvas-toggle-icon {
+    margin-right: 5px;
+}
+
+.pt-offcanvas-icon-after .pt-offcanvas-toggle-icon {
+    order: 2;
+    margin-left: 5px;
+}
+
+.pt-offcanvas-content.pt-offcanvas-slide {
+    transform: translate3d(-100%, 0, 0);
+}
+
+.pt-offcanvas-content.pt-offcanvas-slide.pt-offcanvas-content-right {
+    transform: translate3d(100%, 0, 0);
+}
+
+.pt-offcanvas-content.pt-offcanvas-reveal {
+    z-index: 1;
+}
+
+.pt-offcanvas-content-slide.pt-offcanvas-content-open .pt-offcanvas-content.pt-offcanvas-content-visible {
+    visibility: visible;
+    transform: translate3d(0, 0, 0);
+}
+
+.pt-offcanvas-content-left.pt-offcanvas-push {
+    transform: translate3d(-100%, 0, 0);
+}
+
+.pt-offcanvas-content-right.pt-offcanvas-push {
+    transform: translate3d(100%, 0, 0);
+}
+
+.pt-offcanvas-content-push.pt-offcanvas-content-open .pt-offcanvas-content.pt-offcanvas-content-visible {
+    visibility: visible;
+    transition: transform 0.5s;
+}
+
+.pt-offcanvas-content-push.pt-offcanvas-content-open.pt-offcanvas-content-left .pt-offcanvas-container {
+    transform: translate3d(300px, 0, 0);
+}
+
+.pt-offcanvas-content-push.pt-offcanvas-content-open.pt-offcanvas-content-right .pt-offcanvas-container {
+    transform: translateX(-300px);
+}
+
+.pt-offcanvas-content-reveal .pt-offcanvas-container {
+    background: #fff;
+    overflow: hidden;
+}
+
+.pt-offcanvas-content-reveal.pt-offcanvas-content-open {
+    position: relative;
+    overflow: hidden;
+}
+
+.pt-offcanvas-content-reveal.pt-offcanvas-content-open .pt-offcanvas-content.pt-offcanvas-content-visible {
+    visibility: visible;
+    transition: transform 0.5s;
+}
+
+.pt-offcanvas-content-reveal.pt-offcanvas-content-open.pt-offcanvas-content-left .pt-offcanvas-container {
+    transform: translate3d(300px, 0, 0);
+}
+
+.pt-offcanvas-content-reveal.pt-offcanvas-content-open.pt-offcanvas-content-right .pt-offcanvas-container {
+    transform: translate3d(-300px, 0, 0);
+}
+
+.pt-offcanvas-content-left.pt-offcanvas-slide-along {
+    z-index: 1;
+    transform: translate3d(-50%, 0, 0);
+}
+
+.pt-offcanvas-content-right.pt-offcanvas-slide-along {
+    z-index: 1;
+    transform: translate3d(50%, 0, 0);
+}
+
+.pt-offcanvas-content-slide-along .pt-offcanvas-container {
+    background: #fff;
+    overflow: hidden;
+}
+
+.pt-offcanvas-content-slide-along.pt-offcanvas-content-open .pt-offcanvas-content.pt-offcanvas-content-visible {
+    visibility: visible;
+    transition: transform 0.5s;
+    transform: translate3d(0, 0, 0);
+}
+
+.pt-offcanvas-content-slide-along.pt-offcanvas-content-open.pt-offcanvas-content-left .pt-offcanvas-container {
+    transform: translate3d(300px, 0, 0);
+}
+
+.pt-offcanvas-content-slide-along.pt-offcanvas-content-open.pt-offcanvas-content-right .pt-offcanvas-container {
+    transform: translate3d(-300px, 0, 0);
+}
+
+.pt-offcanvas-custom-widget ul {
+    padding: 0 0 0 30px;
+}
+
+.pt-offcanvas-body .fas,
+.pt-offcanvas-body .fab {
+    font-family: "Font Awesome 5 Free" !important;
+}

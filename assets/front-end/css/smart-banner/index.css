@@ -1,0 +1,196 @@
+.pt-smart-banner-section .pt-title {
+    margin: 5px 0;
+}
+
+.pt-smart-banner-section .pt-description {
+    line-height: 25px;
+}
+
+.pt-smart-banner-section .elementor-size-small {
+    font-size: 15px;
+}
+
+.pt-smart-banner-section .elementor-size-medium {
+    font-size: 19px;
+}
+
+.pt-smart-banner-section .elementor-size-large {
+    font-size: 29px;
+}
+
+.pt-smart-banner-section .elementor-size-xl {
+    font-size: 39px;
+}
+
+.pt-smart-banner-section .elementor-size-xxl {
+    font-size: 59px;
+}
+
+.pt-smart-banner-section .pt-heading-separator {
+    border-top: 1px solid #428bca;
+    display: inline-block;
+    width: 30%;
+}
+
+.pt-smart-banner-section.to-center {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.pt-smart-banner-section .pt-description>p {
+    margin: 10px 0;
+}
+
+.smart-banner-detail-style1 .pt-image {
+    float: left;
+    padding: 20px 10px;
+    width: 40%;
+}
+
+.smart-banner-detail-style1 .pt-description {
+    float: left;
+    padding: 0px 0px 0px;
+    width: 75%;
+}
+
+.smart-banner-detail-style2 .pt-image {
+    float: right;
+    padding: 20px 10px;
+    width: 40%;
+}
+
+.smart-banner-detail-style2 .pt-description {
+    float: left;
+    padding: 0px 0px 0px;
+    width: 60%;
+}
+
+.smart-banner-detail-style1 .pt-title {
+    margin: 5px 0;
+    float: right;
+    padding-right: 0px;
+    padding-top: 133px;
+    width: 49%;
+}
+
+img.elementor-animation-grow {
+    width: 100%!important;
+    margin-left: 11px;
+}
+
+.smart-banner-detail-style2 .pt-title {
+    width: 50%;
+    float: left;
+    padding-top: 79px;
+    padding-left: 37px;
+}
+
+.smart-banner-detail-style2 .elementor-animation-grow {
+    margin-left: 0px;
+}
+
+.smart-banner-image-wrapper.elementor-button-wrapper {
+    float: left;
+    width: 100%;
+}
+
+.pt-smart-banner-section3-contaniner:hover .pt-smart-banner-section {
+    transform: scale(1.1);
+}
+
+.pt-smart-banner-section3-contaniner {
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    will-change: transform;
+}
+
+#elementor .pt-smart-banner-section3-contaniner .pt-smart-banner-section {
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    will-change: transform;
+}
+
+.pt-smart-banner-section3-contaniner .pt-smart-banner-section {
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    will-change: transform;
+}
+
+.elementor-786 .pt-smart-banner-section3-contaniner .pt-smart-banner-section {
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    will-change: transform;
+}
+
+.smart-banner-detail-style3 {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.pt-smart-banner-section3 {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.pt-smart-banner-section3-contaniner {
+    background: transparent none repeat scroll 0 0;
+    border-color: #f3f3f3;
+    border-width: 1px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.smart-banner-detail-style3 {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.34);
+}
+
+.pt-smart-banner-section .pt-title {
+    padding-top: 56px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+@media only screen and (max-width: 768px) {
+    .smart-banner-detail-style1 .pt-image,
+    .smart-banner-detail-style1 .pt-description,
+    .smart-banner-detail-style2 .pt-image,
+    .smart-banner-detail-style2 .pt-description {
+        width: 100%;
+        float: none;
+        text-align: left;
+    }
+    .pt-smart-banner-section .pt-title {
+        padding: 24px !important;
+    }
+    .smart-banner-detail-style1 .pt-title,
+    .smart-banner-detail-style2 .pt-title {
+        margin: 5px 0;
+        float: none;
+        padding-right: 0px;
+        padding-top: 133px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,73 @@
+.pt-divider-wrap {
+  font-size: 0;
+  line-height: 0;
+}
+
+.pt-divider {
+  text-align: center;
+}
+
+.pt-divider-left .divider-border-left {
+  display: none;
+}
+
+.pt-divider-right .divider-border-right {
+  display: none;
+}
+
+/*--- Horizontal ---*/
+.horizontal {
+  border: 0;
+  border-color: #000;
+  border-bottom-width: 4px;
+  border-top-width: 0px;
+  display: inline-block;
+  width: 80px;
+  height: 0;
+  border-style: dashed;
+}
+
+/*--- Vertical ---*/
+.vertical {
+  border: 0;
+  display: inline-block;
+  border-left: 2px solid #000;
+  height: 50px;
+}
+.pt-divider.vertical.dashed {
+    border: 4px solid;
+}
+/*--- divider with Text ---*/
+.divider-text-container {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.divider-text-wrap {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.pt-divider-text {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.divider-border-wrap {
+  flex: 1 1 auto;
+}
+
+.divider-border {
+  border: 0;
+  height: 1px;
+  border-top: 1px solid #000;
+  display: block;
+  width: 100%;
+}
+
+.pt-divider-content {
+  display: inherit;
+  flex: 0 1 auto;
+  margin: 0 20px;
+}

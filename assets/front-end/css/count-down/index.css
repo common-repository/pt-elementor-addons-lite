@@ -1,0 +1,95 @@
+/*---------------------------------*/
+/* 05. Countdown Styles
+/*---------------------------------*/
+/*--- General ---*/
+.pt-countdown-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.pt-countdown-items > li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: table-cell;
+  position: relative;
+	
+}
+
+.pt-countdown-item > div {
+   padding: 15px;
+  width: 93%;
+  text-align: -webkit-center;
+}
+
+.pt-countdown-label-block .pt-countdown-digits,
+.pt-countdown-label-block .pt-countdown-label {
+  display: block;
+  text-align: center;
+}
+
+.pt-countdown-digits {
+  font-size: 54px;
+  line-height: 1;
+}
+
+.pt-countdown-label {
+  font-size: 18px;
+  line-height: 1;
+  color: #ffffff;
+ width: fit-content;
+}
+
+.pt-countdown-show-separator .pt-countdown-digits::after {
+  content: ":";
+  position: absolute;
+  left: 98%;
+  z-index: 9999;
+}
+
+.pt-countdown-item:last-child .pt-countdown-digits::after {
+  display: none;
+}
+
+/*--- Style 1 ---*/
+.pt-countdown-items.style-1 .pt-countdown-item > div {
+  background: #262625;
+	margin: 10px;
+	width:90%;
+	text-align: -webkit-center;
+}
+
+@media screen and (max-width: 1024px) {
+	
+	.pt-countdown-items > li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: table-cell;
+		position: relative;
+		width: 80%;
+		display: inline-block;
+		padding: 10px;
+	}
+	
+	
+}
+@media screen and (max-width: 767px) {
+	
+	.pt-countdown-items > li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: table-cell;
+		position: relative;
+		width: 100%;
+		display: inline-block;
+		padding: 10px;
+	}
+	
+	
+}

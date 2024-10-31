@@ -1,0 +1,31 @@
+.pt-dual-header-container a {
+    text-decoration: none !important;
+}
+
+.pt-dual-header-container .pt-dual-header-first-header,
+.pt-dual-header-container .pt-dual-header-second-header {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
+
+@media (max-width:500px) {
+    .pt-dual-header-container .pt-dual-header-first-header,
+    .pt-dual-header-container .pt-dual-header-second-header {
+        display: block;
+        word-wrap: break-word
+    }
+}
+
+.pt-dual-header-first-container {
+    margin-right: 5px
+}
+
+.pt-dual-header-first-clip,
+.pt-dual-header-second-clip {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text
+}

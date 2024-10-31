@@ -1,0 +1,1002 @@
+
+.content-in {
+
+
+
+    background:#fff;
+
+
+
+    padding:20px;
+
+
+
+    font-size:13px
+
+
+
+}
+
+
+
+ .content-in table {
+
+
+
+    border-collapse:collapse;
+
+
+
+    float:left;
+
+
+
+    clear:both;
+
+
+
+    width:100%;
+
+
+
+    margin:0px;
+
+
+
+    background:#fff;
+
+
+
+    border:1px solid #fff;
+
+
+
+     box-shadow:none;
+
+
+
+    -moz-box-shadow:none;
+
+
+
+    -webkit-box-shadow:none
+
+
+
+}
+
+
+
+ .content-in td {
+
+
+
+    padding:5px;
+
+
+
+    border:1px dotted #ccc;
+
+
+
+    font-size:13px;
+
+
+
+    text-align:center;
+
+
+
+    color:#000
+
+
+
+}
+
+
+
+ td.light {
+
+
+
+    background:#d9d9d9 url("icons/background.jpg") repeat-y center top;
+
+
+
+    padding:20px
+
+
+
+}
+
+
+
+ td.dark {
+
+
+
+    background:#060606 url("icons/background-dark.gif") repeat-y center top;
+
+
+
+    padding:20px
+
+
+
+}
+
+
+
+ td.transparent {
+
+
+
+    background:#d9d9d9 url("icons/background-transparent.jpg") repeat-y center top fixed;
+
+
+
+    padding:20px
+
+
+
+}
+
+
+
+ code {
+
+
+
+    font-family:"Courier New", monospace, Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco;
+
+
+
+    color:#27BB0A;
+
+
+
+    font-size:12px
+
+
+
+}
+
+
+
+ pre code {
+
+
+
+     font-family:"Courier New", monospace, Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco;
+
+
+
+     display:block;
+
+
+
+     clear:both;
+
+
+
+     background:#000;
+
+
+
+     padding:20px 0px 20px 0px;
+
+
+
+     color:#fff;
+
+
+
+     font-size:12px;
+
+
+
+     overflow:auto;
+
+
+
+     line-height:16px;
+
+
+
+     margin:0px 0px 0px 0px;
+
+
+
+     white-space:pre;
+
+
+
+     width:100%
+
+
+
+}
+
+
+
+ .image-acc.content {
+
+
+
+    float:none
+
+
+
+}
+
+
+
+ .sep {
+
+
+
+    width:100%;
+
+
+
+    text-align:center
+
+
+
+}
+
+
+
+/* image accordion */
+
+
+
+ * {
+
+
+
+    -moz-box-sizing:border-box;
+
+
+
+    -webkit-box-sizing:border-box;
+
+
+
+    box-sizing:border-box
+
+
+
+}
+
+
+
+ .image-acc {
+
+
+
+    display:inline-block;
+
+
+
+    margin:50px;
+
+
+
+    border:0px solid #fff;
+
+
+
+    overflow:hidden;
+
+
+
+    text-align:left;
+
+
+
+}
+
+
+
+ .image-acc-inner {
+
+
+
+    white-space:nowrap;
+
+
+
+    display:inline-block;
+
+
+
+    overflow:hidden
+
+
+
+}
+
+
+
+ .image {
+
+
+
+    margin-right:-4px;
+
+
+
+    background:#ccc;
+
+
+
+    overflow:hidden;
+
+
+
+     transition:all 0.2s ease-in-out;
+
+
+
+     -webkit-transition:all 0.2s ease-in-out;
+
+
+
+     -moz-transition:all 0.2s ease-in-out
+
+
+
+}
+
+
+
+ .image:hover {
+
+
+
+     transition:all 0.2s ease-in-out;
+
+
+
+     -webkit-transition:all 0.2s ease-in-out;
+
+
+
+     -moz-transition:all 0.2s ease-in-out
+
+
+
+}
+
+
+
+/* vertical */
+
+
+
+ .vertical{
+
+
+
+     border-left: 0px !important;
+
+
+
+}
+
+
+
+ .txt-content p{
+
+
+
+     margin-left: 35px !important;
+
+
+
+}
+
+
+
+ .txt-content h2{
+
+
+
+     color: #bcbcbc;
+
+
+
+}
+
+
+
+ .image-acc.vertical {
+
+
+
+    width:59%;
+
+
+
+    height:100%
+
+
+
+}
+
+
+
+ .vertical .image-acc-inner {
+
+
+
+    width:100%;
+
+
+
+    height:100%
+
+
+
+}
+
+
+
+ .vertical .image {
+
+
+
+    display:block;
+
+
+
+    border-bottom:5px solid #fff;
+
+
+
+    width:100%
+
+
+
+}
+
+
+
+/* IMG 2 */
+
+
+
+ .img-2.vertical .image-acc-inner:hover .image {
+
+
+
+    height:89px
+
+
+
+}
+
+
+
+ .img-2.vertical .image {
+
+
+
+    height:195px
+
+
+
+}
+
+
+
+ .img-2.vertical .image:hover {
+
+
+
+    height:300px!important
+
+
+
+}
+
+
+
+/* IMG 3 */
+
+
+
+ .img-3.vertical .image-acc-inner:hover .image {
+
+
+
+    height:43px
+
+
+
+}
+
+
+
+ .img-3.vertical .image {
+
+
+
+    height:130px
+
+
+
+}
+
+
+
+ .img-3.vertical .image:hover {
+
+
+
+    height:300px!important
+
+
+
+}
+
+
+
+/* IMG 4 */
+
+
+
+ .img-4.vertical .image-acc-inner:hover .image {
+
+
+
+    height:29px
+
+
+
+}
+
+
+
+ .img-4.vertical .image {
+
+
+
+    height:97px
+
+
+
+}
+
+
+
+ .img-4.vertical .image:hover {
+
+
+
+    height:100%!important
+
+
+
+}
+
+
+
+/* IMG 5 */
+
+
+
+ .img-5.vertical .image-acc-inner:hover .image {
+
+
+
+    height:34px
+
+
+
+}
+
+
+
+ .img-5.vertical .image {
+
+
+
+    height:78px
+
+
+
+}
+
+
+
+ .img-5.vertical .image:hover {
+
+
+
+    height:250px!important
+
+
+
+}
+
+
+
+/* IMG 6 */
+
+
+
+ .img-6.vertical .image-acc-inner:hover .image {
+
+
+
+    height:27px
+
+
+
+}
+
+
+
+ .img-6.vertical .image {
+
+
+
+    height:65px
+
+
+
+}
+
+
+
+ .img-6.vertical .image:hover {
+
+
+
+    height:250px!important
+
+
+
+}
+
+
+
+/* IMG 7 */
+
+
+
+ .img-7.vertical .image-acc-inner:hover .image {
+
+
+
+    height:31px
+
+
+
+}
+
+
+
+ .img-7.vertical .image {
+
+
+
+    height:55px
+
+
+
+}
+
+
+
+ .img-7.vertical .image:hover {
+
+
+
+    height:200px!important
+
+
+
+}
+
+
+
+/* with content */
+
+
+
+ .content .image {
+
+
+
+    position:relative
+
+
+
+}
+
+
+
+ .content .image-inner {
+
+
+
+     position:absolute;
+
+
+
+     white-space:normal;
+
+
+
+     opacity:0;
+
+
+
+     transition:all 1.2s ease-in-out;
+
+
+
+     -webkit-transition:all 1.2s ease-in-out;
+
+
+
+     -moz-transition:all 1.2s ease-in-out
+
+
+
+}
+
+
+
+ .content .image:hover .image-inner {
+
+
+
+     opacity:1.0;
+
+
+
+     transition:all 1.2s ease-in-out;
+
+
+
+     -webkit-transition:all 1.2s ease-in-out;
+
+
+
+     -moz-transition:all 1.2s ease-in-out
+
+
+
+}
+
+
+
+ .content .txt-head {
+
+
+
+    color:#fff;
+
+
+
+    padding:15px 25px 15px 25px
+
+
+
+}
+
+
+
+ .content .txt-content {
+
+
+
+    color:#fff;
+
+
+
+    padding: 29% 32% 100% 31%;
+
+
+
+    font-size:12px
+
+
+
+}
+
+
+
+/* with content type 1 */
+
+
+
+ .type1 .image-inner {
+
+
+
+    background:#000;
+
+
+
+    top:0px;
+
+
+
+    right:0px;
+
+
+
+    left:0px
+
+
+
+}
+
+
+
+ .content.type1 .txt-head {
+
+
+
+    float:left;
+
+
+
+    width:100%
+
+
+
+}
+
+
+
+ .content.type1 .txt-content {
+
+
+
+    float:left;
+
+
+
+    width:100%;
+
+
+
+    padding:0px 25px 15px 25px
+
+
+
+}
+
+
+
+/* with content type 2 */
+
+
+
+ .type2 .image-inner {
+
+
+
+    background:#000;
+
+
+
+    top:20px;
+
+
+
+    right:20px;
+
+
+
+    left:20px
+
+
+
+}
+
+
+
+ .content.type2 .txt-head {
+
+
+
+    float:left;
+
+
+
+    width:100%
+
+
+
+}
+
+
+
+ .content.type2 .txt-content {
+
+
+
+    float:left;
+
+
+
+    width:100%;
+
+
+
+    padding:0px 25px 15px 25px
+
+
+
+}
+
+
+
+/* with content type 3 */
+
+
+
+ .type3 .image-inner {
+
+
+
+    top:-3px;
+
+
+
+    right:-8px;
+
+
+
+    left:0px;
+
+
+
+    bottom: -97px;
+
+
+
+}
+
+
+
+ .content.type3 .txt-head {
+
+
+
+    background:#000;
+
+
+
+    float:left;
+
+
+
+    margin-bottom:15px
+
+
+
+}
+
+
+
+ .content.type3 .txt-content {
+
+
+
+    background:#00000075;
+
+
+
+    float:left
+
+
+
+}

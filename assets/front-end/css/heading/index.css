@@ -1,0 +1,59 @@
+/**
+Heading Css
+**/
+.pt-heading-section .pt-description
+{ margin: 15px 0; }
+.pt-heading-section .pt-title {
+ margin: 5px 0; }
+.pt-heading-section .pt-description {
+ line-height: 25px; }
+.pt-heading-section .elementor-size-small {
+ font-size: 15px; }
+.pt-heading-section  .elementor-size-medium {
+ font-size: 19px; }
+.pt-heading-section  .elementor-size-large {
+ font-size: 29px; }
+.pt-heading-section  .elementor-size-xl {
+ font-size: 39px; }
+.pt-heading-section  .elementor-size-xxl {
+ font-size: 59px; }
+.pt-heading-section .pt-heading-separator {
+ border-top: 1px solid #428bca;
+ display: inline-block;
+ width: 30%;
+}
+.pt-separator-wrap {
+ display:table;
+ width:100%;
+}
+.pt-separator-center {
+ margin-left: auto;
+ margin-right: auto;
+}
+.pt-separator-left {
+ margin-left: 0;
+ margin-right: auto;
+}
+.pt-separator-right {
+ margin-left: auto;
+ margin-right: 0;
+}
+.pt-separator-left  .pt-side-left{
+ width:0 !important;
+}
+.pt-separator-right  .pt-side-right{
+ width:0 !important;
+}
+.pt-heading-section .pt-icon .elementor-icon
+{
+ vertical-align: middle;
+}
+.pt-heading-section .pt-icon .heading-text-wrapper,
+.pt-heading-section .pt-icon .heading-icon-wrapper
+{
+ vertical-align: middle;
+ display: inline-block;
+}
+.pt-heading-section .heading-title {
+ margin-bottom: 0;
+}

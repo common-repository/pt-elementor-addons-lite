@@ -1,0 +1,91 @@
+/** * Dual Color Heading */
+ .pt-dual-header {
+     display: block;
+     margin-bottom: 50px;
+}
+ .pt-dual-header .title, .pt-dual-header .title span {
+     font-size: 36px;
+     font-weight: 700;
+     text-transform: uppercase;
+     line-height: 48px;
+     margin: 10px 0px;
+}
+ .pt-dual-header .subtext {
+     font-size: 16px;
+     display: block;
+}
+ .pt-dual-header i {
+     display: block;
+     padding: 0px;
+     margin: 20px 0px 10px 0px;
+     font-size: 36px;
+}
+ .pt-dual-header .title span.lead {
+     color: #1abc9c;
+}
+/* Builder Related Css */
+ .pt-dual-header-content-align-center {
+     text-align: center;
+}
+ .pt-dual-header-content-align-left {
+     text-align: left;
+}
+ .pt-dual-header-content-align-right {
+     text-align: right;
+}
+.pt-dual-header {
+     display: block;
+     margin-bottom: 50px;
+}
+ .pt-dual-header .title, .pt-dual-header .title span {
+     font-size: 36px;
+     font-weight: 700;
+     text-transform: uppercase;
+     line-height: 48px;
+     margin: 10px 0px;
+}
+ .pt-dual-header .subtext {
+     font-size: 16px;
+     display: block;
+}
+ .pt-dual-header i {
+     display: block;
+     padding: 0px;
+     margin: 20px 0px 10px 0px;
+     font-size: 36px;
+}
+ .pt-dual-header .title span.lead {
+     color: #1abc9c;
+}
+/* Builder Related Css */
+ .pt-dual-header-content-align-center {
+     text-align: center;
+}
+ .pt-dual-header-content-align-left {
+     text-align: left;
+}
+ .pt-dual-header-content-align-right {
+     text-align: right;
+}
+/*==================================dual header ====================================*/
+ .pt-dual-header-container .pt-dual-header-first-header, .pt-dual-header-container .pt-dual-header-second-header {
+     position: relative;
+     padding: 0;
+     margin: 0;
+     display: inline-block;
+     -webkit-transform: translate(0,0);
+     transform: translate(0,0);
+}
+ @media (max-width: 500px) {
+     .pt-dual-header-container .pt-dual-header-first-header, .pt-dual-header-container .pt-dual-header-second-header {
+         display: block;
+         word-wrap: break-word;
+    }
+}
+ .pt-dual-header-first-container {
+     margin-right: 5px;
+}
+ .pt-dual-header-first-clip, .pt-dual-header-second-clip {
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+}

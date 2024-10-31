@@ -1,0 +1,163 @@
+/* review notice */
+
+.pt-review-notice {
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 3px;
+	margin: 15px;
+	border-left: 4px solid transparent;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.pt-review-notice:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.pt-notice-thumbnail {
+	width: 90px;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	border-right: 4px solid transparent;
+}
+
+.pt-notice-thumbnail img {
+	width: 72px;
+	opacity: 0.85;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.pt-notice-thumbnail img:hover {
+	opacity: 1;
+}
+
+.pt-update-notice .pt-notice-thumbnail img {
+	width: 40px;
+}
+
+.pt-update-notice .pt-notice-thumbnail {
+	width: auto;
+	padding: 0;
+}
+
+.pt-update-notice .pt-notice-message {
+	padding: 5px 0;
+}
+
+.pt-update-notice {
+	border-color: #6648fe;
+}
+
+a.ea-notice-cta {
+	background-color: #4d18ff;
+	background: linear-gradient(-30deg, #4d18ff, #9a7cff);
+	margin-top: 30px;
+	color: #fff;
+	padding: 8px 20px;
+	outline: none;
+	text-decoration: none;
+	border-radius: 3px;
+	margin-left: 10px;
+	transition: all 0.3s ease;
+}
+
+a.ea-notice-cta:hover {
+	opacity: 0.85;
+}
+
+span.coupon-code {
+	background: #ebebeb;
+	padding: 5px 10px;
+	letter-spacing: 0.035em;
+}
+
+.pt-review-text {
+	overflow: hidden;
+}
+
+.pt-review-text h3 {
+	font-size: 24px;
+	margin: 0 0 5px;
+	font-weight: 400;
+	line-height: 1.3;
+}
+
+.pt-review-text p {
+	font-size: 13px;
+	margin: 0 0 5px;
+}
+
+.pt-notice-link {
+	margin: 8px 0 0 0;
+	padding: 0;
+}
+
+.pt-notice-link li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.pt-notice-link li a {
+	display: inline-block;
+	color: #10738b;
+	text-decoration: none;
+	padding-left: 26px;
+	position: relative;
+}
+
+.pt-notice-link li a span {
+	position: absolute;
+	left: 0;
+	top: -2px;
+}
+
+.pt-notice-message {
+	padding: 10px 0;
+}
+
+.pt-upsale-notice .pt-notice-message {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 10px 0;
+}
+
+.pt-upsale-notice .pt-notice-message + .notice-dismiss {
+	top: 18px;
+}
+
+.pt-upsale-notice #plugin-install-core {
+	margin-left: 10px;
+}
+
+.notice.notice-has-thumbnail {
+	padding-left: 0;
+}
+
+.pt-upsale-notice {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.pt-upsale-notice .pt-notice-thumbnail {
+	padding: 0;
+	width: 80px;
+}
+
+.toplevel_page_pt-settings .wp-menu-image img {
+	max-width: 20px;
+	padding-top: 8px !important;
+}

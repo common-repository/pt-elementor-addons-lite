@@ -1,0 +1,35 @@
+.pt-business-hours .pt-business-day,
+.pt-business-hours .pt-business-timing {
+    float: left;
+    width: 50%;
+}
+
+.pt-business-hours .pt-business-timing {
+    text-align: right;
+}
+
+.pt-business-hours {
+    overflow: hidden;
+    padding: 20px;
+    color: #333;
+}
+
+.pt-business-hours-row.sunday .pt-business-day,
+
+/* .pt-business-hours-row.sunday .pt-business-timing  {
+
+    color: #ff0000;
+
+} */
+
+.pt-business-hours-row {
+    overflow: hidden;
+}
+
+span#error {
+    color: red;
+    font-size: 22px;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+}

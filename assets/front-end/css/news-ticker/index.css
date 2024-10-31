@@ -1,0 +1,56 @@
+.wptu-ticker .wptu-ticker-title .wptu-ticker-head{
+	font-size:18px;
+}
+
+.wptu-ticker-main {
+	display: -webkit-flex;
+    display: flex;
+	position: relative;
+}
+.wptu-ticker-title {
+    position: relative;
+    width: 15% !important;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.wptu-ticker-block {
+    width: 85%;
+	display: flex;
+    align-items: center;
+}
+.wptu-ticker-head {
+    padding: 17px;
+	
+}
+.wptu-ticker-block li {
+    padding-left: 36px;
+}
+.wptu-ticker-block ul {
+    margin: 6px !important;
+}
+.wptu-ticker .wptu-ticker-navi {width: 40px;height: 50px;position: relative;right: 0px;top: 0px;bottom: 0;margin: auto;}
+.wptu-ticker:hover .wptu-ticker-navi {opacity: 1;}
+.wptu-ticker .wptu-ticker-navi > span:hover {opacity: 1;}
+
+.wptu-ticker .wptu-ticker-navi > span:first-child {background-position: left center;left: 0;}
+.wptu-ticker .wptu-ticker-navi > span:last-child {background-position: right center;right: 0;}
+.wptu-ticker .wptu-ticker-navi > span {width: 20px;height: 40px;position: absolute;top: 0;cursor: pointer;opacity: 0.3;background: url(../../../wp-content/plugins/pt-addons-for-elementor/assets/front-end/images/ticker-arrows.png) no-repeat;}
+
+.wptu-ticker-conf {display: none;}
+.wptu-ticker-main:hover .wptu-ticker-navi {opacity: 1;}
+.wptu-ticker-main.wptu-bordernone {border: none;}
+.wptu-ticker-block ul > li {display: none;list-style: none;}
+
+@media only screen and (max-width: 768px) {
+	.wptu-ticker-title {
+		width: 19% !important;
+	}
+	
+}
+@media only screen and (max-width: 360px) {
+	.wptu-ticker-title {
+		width: 3% !important;
+	}
+	
+}

@@ -1,0 +1,95 @@
+.pt-advance-tabs>.pt-tab-navs {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1;
+}
+
+.pt-advance-tabs .pt-tab-navs li {
+    flex: 1 1 auto;
+    cursor: pointer;
+}
+
+.pt-advance-tabs .pt-tab-navs li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 0;
+}
+
+.pt-advance-tabs .pt-tab-navs li a:hover,
+.pt-advance-tabs .pt-tab-navs li a.active {
+    position: relative;
+    z-index: 0;
+}
+
+.pt-advance-tabs .pt-tab-navs li a:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    z-index: 1;
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #444;
+    border-bottom: 0px;
+    display: none;
+}
+
+.pt-advance-tabs .pt-tab-navs li a.active:after {
+    display: block;
+}
+
+.pt-advance-tabs .pt-tab-contents .pt-tab-content {
+    display: none;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    opacity: 0;
+    font-size: 1rem;
+    line-height: 1.7;
+    border: 1px solid #eee;
+    margin-top: -1px;
+}
+
+.pt-advance-tabs .pt-tab-contents .pt-tab-content.active {
+    display: block;
+    opacity: 1;
+    animation: fadeIn linear 0.3s;
+}
+
+
+/* Inline Icon */
+
+.pt-tab-inline-icon li a .fa {
+    margin-right: 10px;
+    line-height: 1;
+}
+
+.pt-tab-top-icon li a {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.pt-tab-top-icon li a .fa,
+.pt-tab-top-icon li a .pt-tab-title {
+    flex: 1 1 100%;
+    line-height: 1;
+}
+
+.pt-tab-top-icon li a .pt-tab-title {
+    margin-top: 10px;
+}

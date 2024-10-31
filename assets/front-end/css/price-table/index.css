@@ -1,0 +1,2476 @@
+.elementor-label-inline>.elementor-control-content>.elementor-control-field>.elementor-control-input-wrapper {
+	min-width: 62px;align-content
+}
+
+.pt-pricing {
+
+
+     -webkit-display: flex;
+
+
+     display: flex;
+
+
+     -webkit-justify-content: center;
+
+
+     justify-content: center;
+
+
+     -webkit-align-items: center;
+
+
+     align-items: center;
+
+
+}
+
+
+ .pt-pricing .pt-pricing-item {
+
+
+    /*width: 33.33%;
+
+
+    */
+
+
+     width: 100%;
+
+
+     height: auto;
+
+
+     margin: 0;
+
+
+}
+
+
+ .pt-pricing .pt-pricing-button {
+
+
+     display: inline-block;
+
+
+     padding: 12px 25px;
+
+
+     background: #007fc0;
+
+
+     font-size: 14px;
+
+
+     font-weight: 600;
+
+
+     color: #fff;
+
+
+     text-transform: uppercase;
+
+
+     text-decoration: none;
+
+
+     -webkit-transition: .3s;
+
+
+     transition: .3s;
+
+
+     -webkit-border-radius: 4px;
+
+
+     border-radius: 4px;
+
+
+}
+
+
+ .pt-pricing .pt-pricing-button:hover {
+
+
+     background: #03b048;
+
+
+}
+
+
+ .pt-pricing .pt-pricing-item ul {
+
+
+     padding: 0px;
+     list-style: initial;
+     margin: 0px;
+
+
+}
+
+
+ .pt-pricing .pt-pricing-item ul li.disable-item {
+
+
+     text-decoration: line-through;
+
+
+     opacity: 0.5;
+
+
+}
+
+
+ .pt-pricing .pt-pricing-item ul li span.li-icon {
+
+
+     color: #007fc0;
+
+
+     margin-right: 6px;
+
+
+}
+
+
+ .pt-pricing .pt-pricing-item ul li.disable-item span.li-icon {
+
+
+     color: #EF5350;
+
+
+}
+
+
+/* Pricing Table: Style 1 */
+
+
+ .pt-pricing.style-1 {
+
+
+     position: relative;
+
+
+     z-index: 0;
+
+
+     text-align: center;
+	
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item {
+
+
+     border: 1px solid rgba( 9, 9, 9, .1);
+
+
+    /* padding: 30px;
+
+
+    */
+
+
+     -webkit-border-radius: 5px;
+
+
+     border-radius: 5px;
+
+
+     -webkit-transition: .5s;
+
+
+     transition: .5s;
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item:hover {
+
+
+     -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+
+     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item.featured {
+
+
+     position: relative;
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item.ribbon-1:before {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     width: 100%;
+
+
+     height: 3px;
+
+
+     background: #007fc0;
+
+
+     top: 0px;
+
+
+     left: 0px;
+
+
+     right: 0px;
+
+
+     z-index: 1;
+
+
+     -webkit-border-radius: 5px 5px 0px 0px;
+
+
+     border-radius: 5px 5px 0px 0px;
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item.ribbon-2:before {
+
+
+     content: "Featured";
+
+
+     position: absolute;
+
+
+     width: auto;
+
+
+     background: #007fc0;
+
+
+     color: #fff;
+
+
+     top: 35px;
+
+
+     right: -15px;
+
+
+     z-index: 10;
+
+
+     font-size: 10px;
+
+
+     font-weight: 600;
+
+
+     text-transform: uppercase;
+
+
+     padding: 5px 10px;
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item.ribbon-2:after {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     top: 20px;
+
+
+     right: -15px;
+
+
+     width: 0;
+
+
+     height: 0;
+
+
+     border-bottom: 15px solid #007fc0;
+
+
+     border-right: 15px solid transparent;
+
+
+     z-index: 9;
+
+
+     opacity: 0.9;
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item.ribbon-3:before {
+
+
+     content: "Featured";
+
+
+     position: absolute;
+
+
+     width: auto;
+
+
+     background: rgba( 0,0,0,0.6 );
+
+
+     color: #fff;
+
+
+     top: 15px;
+
+
+     right: 15px;
+
+
+     z-index: 10;
+
+
+     font-size: 11px;
+
+
+     font-weight: 600;
+
+
+     text-transform: uppercase;
+
+
+     padding: 5px 15px;
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item .header {
+
+
+     display: block;
+
+
+     position: relative;
+
+
+     z-index: 0;
+
+
+     padding-bottom: 15px;
+
+
+     margin-bottom: 15px;
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item .header:after {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     width: 140px;
+
+
+     height: 1px;
+
+
+     bottom: 0px;
+
+
+     left: 0px;
+
+
+     right: 0px;
+
+
+     margin: 0 auto;
+
+
+     z-index: 1;
+
+
+     background: rgba( 9, 9, 9, .1);
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item .header .title {
+
+
+     font-weight: 700;
+
+
+     line-height: 30px;
+
+
+     margin: 0px;
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item .pt-pricing-tag {
+
+
+     position: relative;
+
+
+     z-index: 0;
+
+
+     padding: 15px 0px;
+
+
+     margin-bottom: 15px;
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item .pt-pricing-tag:after {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     width: 140px;
+
+
+     height: 1px;
+
+
+     bottom: 0px;
+
+
+     left: 0px;
+
+
+     right: 0px;
+
+
+     margin: 0 auto;
+
+
+     z-index: 1;
+
+
+     background: rgba( 9, 9, 9, .04);
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item .price-tag {
+
+
+     position: relative;
+
+
+     display: inline-block;
+
+
+     font-size: 28px;
+
+
+     font-weight: 500;
+
+
+     line-height: 0px;
+
+
+     margin: 0px auto;
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item .price-tag .price-currency {
+
+
+     font-size: 24px;
+
+
+     font-weight: 700;
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item .price-period {
+
+
+     color: #999;
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item .body {
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item .body ul {
+
+
+     display: block;
+
+
+     width: 100%;
+
+
+     margin-bottom: 15px;
+     list-style-type: initial !important;
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item .body ul li {
+
+
+/*      display: block; */
+
+
+     width: 100%;
+
+
+     height: auto;
+
+
+     padding: 10px 0px;
+
+
+     font-size: 14px;
+
+
+     color: #6d6d6d;
+
+
+     border-bottom: 1px solid rgba( 9, 9, 9, .04);
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item .body ul li:last-child {
+
+
+     border: none;
+
+
+}
+
+
+ .pt-pricing.style-1 .pt-pricing-item.featured-large {
+
+
+     padding: 60px 0px;
+
+
+}
+
+
+/* Pricing Table : Style 2 */
+
+
+ .pt-pricing.style-2 {
+
+
+     position: relative;
+
+
+     z-index: 0;
+
+
+     text-align: center;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item {
+
+
+     padding: 30px 0px;
+
+
+     border-radius: 5px;
+
+
+     margin: 0px;
+
+
+     border: 1px solid rgba( 9, 9, 9, .1);
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item.featured {
+
+
+     -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+
+     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item.ribbon-1:before {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     width: 100%;
+
+
+     height: 3px;
+
+
+     background: #007fc0;
+
+
+     top: 0px;
+
+
+     left: 0px;
+
+
+     right: 0px;
+
+
+     z-index: 1;
+
+
+     -webkit-border-radius: 5px 5px 0px 0px;
+
+
+     border-radius: 5px 5px 0px 0px;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item.ribbon-2:before {
+
+
+     content: "Featured";
+
+
+     position: absolute;
+
+
+     width: auto;
+
+
+     background: #007fc0;
+
+
+     color: #fff;
+
+
+     top: 35px;
+
+
+     right: -15px;
+
+
+     z-index: 10;
+
+
+     font-size: 10px;
+
+
+     font-weight: 600;
+
+
+     text-transform: uppercase;
+
+
+     padding: 5px 10px;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item.ribbon-2:after {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     top: 20px;
+
+
+     right: -15px;
+
+
+     width: 0;
+
+
+     height: 0;
+
+
+     border-bottom: 15px solid #007fc0;
+
+
+     border-right: 15px solid transparent;
+
+
+     z-index: 9;
+
+
+     opacity: 0.9;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item.ribbon-3:before {
+
+
+     content: "Featured";
+
+
+     position: absolute;
+
+
+     width: auto;
+
+
+     background: rgba( 0,0,0,0.6 );
+
+
+     color: #fff;
+
+
+     top: 15px;
+
+
+     right: 15px;
+
+
+     z-index: 10;
+
+
+     font-size: 11px;
+
+
+     font-weight: 600;
+
+
+     text-transform: uppercase;
+
+
+     padding: 5px 15px;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .pt-pricing-icon {
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .pt-pricing-icon .icon {
+
+
+     display: inline-block;
+
+
+     position: relative;
+
+
+     width: 80px;
+
+
+     height: 80px;
+
+
+     background: #007fc0;
+
+
+     border-radius: 50%;
+
+
+    /*border: 2px solid #00c853;
+
+
+    */
+
+
+     margin-bottom: 30px;
+
+
+     text-align: center;
+
+
+     -webkit-transition: .5s;
+
+
+     transition: .5s;
+
+
+     overflow: hidden;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .pt-pricing-icon .icon i {
+
+
+     font-size: 30px;
+
+
+     color: #fff;
+
+
+     line-height: 80px;
+
+
+     -webkit-transition: .5s;
+
+
+     transition: .5s;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item:hover .pt-pricing-icon .icon {
+
+
+     background: #007fc0;
+
+
+    /*border: 2px solid #43A047;
+
+
+    */
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item:hover .pt-pricing-icon .icon i {
+
+
+     color: #fff;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .header {
+
+
+     background: #C8E6C9;
+
+
+     padding: 25px 30px;
+
+
+     margin-bottom: 15px;
+
+
+     position: relative;
+
+
+     z-index: 0;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item.featured .header:after {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     width: 100%;
+
+
+     height: 100%;
+
+
+     top: 0px;
+
+
+     left: 0px;
+
+
+     right: 0px;
+
+
+     bottom: 0px;
+
+
+     z-index: -1;
+
+
+     background: rgba(255, 255, 255, .4);
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .header .title {
+
+
+     font-size: 28px;
+
+
+     font-weight: 700;
+
+
+     line-height: 40px;
+
+
+     margin: 0px;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .header .subititle {
+
+
+     font-size: 14px;
+
+
+     font-weight: 600;
+
+
+     color: #6d6d6d;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .pt-pricing-tag {
+
+
+     position: relative;
+
+
+     z-index: 0;
+
+
+     padding: 15px 0px;
+
+
+     margin-bottom: 15px;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .pt-pricing-tag:after {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     width: 140px;
+
+
+     height: 1px;
+
+
+     bottom: 0px;
+
+
+     left: 0px;
+
+
+     right: 0px;
+
+
+     margin: 0 auto;
+
+
+     z-index: 1;
+
+
+     background: rgba( 9, 9, 9, .04);
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .price-tag {
+
+
+     position: relative;
+
+
+     display: inline-block;
+
+
+     font-size: 28px;
+
+
+     font-weight: 500;
+
+
+     line-height: 0px;
+
+
+     margin: 0px auto;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .price-tag .price-currency {
+
+
+     font-size: 24px;
+
+
+     font-weight: 700;
+
+
+     color: #007fc0;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .price-period {
+
+
+     color: #999;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .body {
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .body ul {
+
+
+     display: block;
+
+
+     width: 100%;
+
+
+     margin-bottom: 15px;
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .body ul li {
+
+
+     display: block;
+
+
+     width: 100%;
+
+
+     height: auto;
+
+
+     padding: 10px 15px;
+
+
+     font-size: 14px;
+
+
+     color: #6d6d6d;
+
+
+     border-bottom: 1px solid rgba( 9, 9, 9, .04);
+
+
+}
+
+
+ .pt-pricing.style-2 .pt-pricing-item .body ul li:last-child {
+
+
+     border: none;
+
+
+}
+
+
+/* Pricing Table : Style 3 */
+
+
+ .pt-pricing.style-3 {
+
+
+     position: relative;
+
+
+     z-index: 0;
+
+
+     text-align: center;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item {
+
+
+     padding: 30px 0px;
+
+
+     border-radius: 5px;
+
+
+     margin: 0px;
+
+
+     border: 1px solid rgba( 9, 9, 9, .1);
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item.featured {
+
+
+     -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+
+     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item.ribbon-1:before {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     width: 100%;
+
+
+     height: 3px;
+
+
+     background: #007fc0;
+
+
+     top: 0px;
+
+
+     left: 0px;
+
+
+     right: 0px;
+
+
+     z-index: 1;
+
+
+     -webkit-border-radius: 5px 5px 0px 0px;
+
+
+     border-radius: 5px 5px 0px 0px;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item.ribbon-2:before {
+
+
+     content: "Featured";
+
+
+     position: absolute;
+
+
+     width: auto;
+
+
+     background: #007fc0;
+
+
+     color: #fff;
+
+
+     top: 35px;
+
+
+     right: -15px;
+
+
+     z-index: 10;
+
+
+     font-size: 10px;
+
+
+     font-weight: 600;
+
+
+     text-transform: uppercase;
+
+
+     padding: 5px 10px;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item.ribbon-2:after {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     top: 20px;
+
+
+     right: -15px;
+
+
+     width: 0;
+
+
+     height: 0;
+
+
+     border-bottom: 15px solid #007fc0;
+
+
+     border-right: 15px solid transparent;
+
+
+     z-index: 9;
+
+
+     opacity: 0.9;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item.ribbon-3:before {
+
+
+     content: "Featured";
+
+
+     position: absolute;
+
+
+     width: auto;
+
+
+     background: rgba( 0,0,0,0.6 );
+
+
+     color: #fff;
+
+
+     top: 15px;
+
+
+     right: 15px;
+
+
+     z-index: 10;
+
+
+     font-size: 11px;
+
+
+     font-weight: 600;
+
+
+     text-transform: uppercase;
+
+
+     padding: 5px 15px;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .pt-pricing-icon {
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .pt-pricing-icon .icon {
+
+
+     display: inline-block;
+
+
+     position: relative;
+
+
+     width: 80px;
+
+
+     height: 80px;
+
+
+     background: #007fc0;
+
+
+     border-radius: 50%;
+
+
+    /*border: 2px solid #00c853;
+
+
+    */
+
+
+     margin-bottom: 30px;
+
+
+     text-align: center;
+
+
+     -webkit-transition: .5s;
+
+
+     transition: .5s;
+
+
+     overflow: hidden;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .pt-pricing-icon .icon i {
+
+
+     font-size: 30px;
+
+
+     color: #fff;
+
+
+     line-height: 80px;
+
+
+     -webkit-transition: .5s;
+
+
+     transition: .5s;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item:hover .pt-pricing-icon .icon {
+
+
+     background: #007fc0;
+
+
+    /*border: 2px solid #43A047;
+
+
+    */
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item:hover .pt-pricing-icon .icon i {
+
+
+     color: #fff;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .header {
+
+
+    /* background: #49508c;
+
+
+    */
+
+
+     padding: 25px 30px;
+
+
+     margin-bottom: 15px;
+
+
+     position: relative;
+
+
+     z-index: 0;
+
+
+     margin-top: -30px;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item.featured .header:after {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     width: 100%;
+
+
+     height: 100%;
+
+
+     top: 0px;
+
+
+     left: 0px;
+
+
+     right: 0px;
+
+
+     bottom: 0px;
+
+
+     z-index: -1;
+
+
+     background: rgba(255, 255, 255, .4);
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .header .title {
+
+
+     font-size: 28px;
+
+
+     font-weight: 700;
+
+
+     line-height: 40px;
+
+
+     margin: 0px;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .header .subititle {
+
+
+     font-size: 14px;
+
+
+     font-weight: 600;
+
+
+     color: #6d6d6d;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .pt-pricing-tag {
+
+
+     position: relative;
+
+
+     z-index: 0;
+
+
+     padding: 15px 0px;
+
+
+     margin-bottom: 15px;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .pt-pricing-tag:after {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     width: 140px;
+
+
+     height: 1px;
+
+
+     bottom: 0px;
+
+
+     left: 0px;
+
+
+     right: 0px;
+
+
+     margin: 0 auto;
+
+
+     z-index: 1;
+
+
+     background: rgba( 9, 9, 9, .04);
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .price-tag {
+
+
+     position: relative;
+
+
+     display: inline-block;
+
+
+     font-size: 28px;
+
+
+     font-weight: 500;
+
+
+     line-height: 0px;
+
+
+     margin: 0px auto;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .price-tag .price-currency {
+
+
+     font-size: 24px;
+
+
+     font-weight: 700;
+
+
+     color: #007fc0;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .price-period {
+
+
+     color: #999;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .body {
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .body ul {
+
+
+     display: block;
+
+
+     width: 100%;
+
+
+     margin-bottom: 15px;
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .body ul li {
+
+
+     display: block;
+
+
+     width: 100%;
+
+
+     height: auto;
+
+
+     padding: 10px 15px;
+
+
+     font-size: 14px;
+
+
+     color: #6d6d6d;
+
+
+     border-bottom: 1px solid rgba( 9, 9, 9, .04);
+
+
+}
+
+
+ .pt-pricing.style-3 .pt-pricing-item .body ul li:last-child {
+
+
+     border: none;
+
+
+}
+
+
+/* Pricing Table : Style 4 */
+
+
+ .pt-pricing.style-4 {
+
+
+     position: relative;
+
+
+     z-index: 0;
+
+
+     text-align: center;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item {
+
+
+     border: 1px solid rgba( 9, 9, 9, .1);
+
+
+    /* padding: 30px;
+
+
+    */
+
+
+     -webkit-border-radius: 5px;
+
+
+     border-radius: 5px;
+
+
+     -webkit-transition: .5s;
+
+
+     transition: .5s;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item:hover {
+
+
+     -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+
+     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item.featured {
+
+
+     position: relative;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item.ribbon-1:before {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     width: 100%;
+
+
+     height: 3px;
+
+
+     background: #007fc0;
+
+
+     top: 0px;
+
+
+     left: 0px;
+
+
+     right: 0px;
+
+
+     z-index: 1;
+
+
+     -webkit-border-radius: 5px 5px 0px 0px;
+
+
+     border-radius: 5px 5px 0px 0px;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item.ribbon-2:before {
+
+
+     content: "Featured";
+
+
+     position: absolute;
+
+
+     width: auto;
+
+
+     background: #007fc0;
+
+
+     color: #fff;
+
+
+     top: 35px;
+
+
+     right: -15px;
+
+
+     z-index: 10;
+
+
+     font-size: 10px;
+
+
+     font-weight: 600;
+
+
+     text-transform: uppercase;
+
+
+     padding: 5px 10px;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item.ribbon-2:after {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     top: 20px;
+
+
+     right: -15px;
+
+
+     width: 0;
+
+
+     height: 0;
+
+
+     border-bottom: 15px solid #007fc0;
+
+
+     border-right: 15px solid transparent;
+
+
+     z-index: 9;
+
+
+     opacity: 0.9;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item.ribbon-3:before {
+
+
+     content: "Featured";
+
+
+     position: absolute;
+
+
+     width: auto;
+
+
+     background: rgba( 0,0,0,0.6 );
+
+
+     color: #fff;
+
+
+     top: 15px;
+
+
+     right: 15px;
+
+
+     z-index: 10;
+
+
+     font-size: 11px;
+
+
+     font-weight: 600;
+
+
+     text-transform: uppercase;
+
+
+     padding: 5px 15px;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item .header {
+
+
+     display: block;
+
+
+     position: relative;
+
+
+     z-index: 0;
+
+
+     padding-bottom: 15px;
+
+
+     margin-bottom: 15px;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item .header:after {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     width: 140px;
+
+
+     height: 1px;
+
+
+     bottom: 0px;
+
+
+     left: 0px;
+
+
+     right: 0px;
+
+
+     margin: 0 auto;
+
+
+     z-index: 1;
+
+
+     background: rgba( 9, 9, 9, .1);
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item .header .title {
+
+
+     font-weight: 700;
+
+
+     line-height: 30px;
+
+
+     margin: 0px;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item .pt-pricing-tag {
+
+
+     position: relative;
+
+
+     z-index: 0;
+
+
+     padding: 15px 0px;
+
+
+     margin-bottom: 15px;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item .pt-pricing-tag:after {
+
+
+     content: "";
+
+
+     position: absolute;
+
+
+     width: 140px;
+
+
+     height: 1px;
+
+
+     bottom: 0px;
+
+
+     left: 0px;
+
+
+     right: 0px;
+
+
+     margin: 0 auto;
+
+
+     z-index: 1;
+
+
+     background: rgba( 9, 9, 9, .04);
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item .price-tag {
+
+
+     position: relative;
+
+
+     display: inline-block;
+
+
+     font-size: 28px;
+
+
+     font-weight: 500;
+
+
+     line-height: 0px;
+
+
+     margin: 0px auto;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item .price-tag .price-currency {
+
+
+     font-size: 24px;
+
+
+     font-weight: 700;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item .price-period {
+
+
+     color: #999;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item .body {
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item .body ul {
+
+
+     display: block;
+
+
+     width: 100%;
+
+
+     margin-bottom: 15px;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item .body ul li {
+
+
+     display: block;
+
+
+     width: 100%;
+
+
+     height: auto;
+
+
+     padding: 10px 0px;
+
+
+     font-size: 14px;
+
+
+     color: #6d6d6d;
+
+
+     border-bottom: 1px solid rgba( 9, 9, 9, .04);
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item .body ul li:last-child {
+
+
+     border: none;
+
+
+}
+
+
+ .pt-pricing.style-4 .pt-pricing-item.featured-large {
+
+
+     padding: 60px 0px;
+
+
+}
+
+
+/* Media Query */
+
+
+ @media only screen and ( min-width: 768px) and (max-width: 992px) {
+
+
+     .pt-pricing {
+
+
+         display: block;
+
+
+    }
+
+
+     .pt-pricing .pt-pricing-item, .pt-pricing.style-2 .pt-pricing-item, .pt-pricing.style-4 .pt-pricing-item {
+
+
+         width: 100%;
+
+
+         margin: 0 auto 30px auto;
+
+
+    }
+
+
+}
+
+
+ @media only screen and (max-width: 480px) {
+
+
+     .pt-pricing {
+
+
+         display: block;
+
+
+    }
+
+
+     .pt-pricing .pt-pricing-item {
+
+
+         width: 100%;
+
+
+    }
+
+
+     .pt-pricing .pt-pricing-item, .pt-pricing.style-2 .pt-pricing-item, .pt-pricing.style-4 .pt-pricing-item {
+
+
+         margin: 0 auto 30px auto;
+
+
+    }
+
+
+}
+
+
+/* Page Builder Related Style */
+
+
+ .pt-pricing-content-align-center .pt-pricing {
+
+
+     text-align: center;
+
+
+}
+
+
+ .pt-pricing-content-align-left .pt-pricing {
+
+
+     text-align: left;
+
+
+}
+
+
+ .pt-pricing-content-align-right .pt-pricing {
+
+
+     text-align: right;
+
+
+}
+
+
+ .pt-pricing-content-align-left .pt-pricing.style-2 .pt-pricing-item .price-tag {
+
+
+     padding-left: 45px;
+
+
+}
+
+
+ .pt-pricing-content-align-left .pt-pricing.style-2 .pt-pricing-item .price-tag:before {
+
+
+     left: 30px;
+
+
+}
+
+
+ .pt-pricing-content-align-right .pt-pricing.style-2 .pt-pricing-item .pt-pricing-tag {
+
+
+     padding-right: 30px;
+
+
+}
+
+
+ .pt-pricing-content-align-left .pt-pricing.style-2 .pt-pricing-item .header, .pt-pricing-content-align-left .pt-pricing.style-2 .pt-pricing-item .pt-pricing-icon, .pt-pricing-content-align-left .pt-pricing.style-2 .pt-pricing-item .footer, .pt-pricing-content-align-left .pt-pricing.style-4 .pt-pricing-item .header, .pt-pricing-content-align-left .pt-pricing.style-4 .pt-pricing-item .footer {
+
+
+     padding-left: 30px;
+
+
+     padding-right: 30px;
+
+
+}
+
+
+ .pt-pricing-content-align-right .pt-pricing.style-2 .pt-pricing-item .header, .pt-pricing-content-align-right .pt-pricing.style-2 .pt-pricing-item .pt-pricing-icon, .pt-pricing-content-align-right .pt-pricing.style-2 .pt-pricing-item .footer, .pt-pricing-content-align-right .pt-pricing.style-4 .pt-pricing-item .header, .pt-pricing-content-align-right .pt-pricing.style-4 .pt-pricing-item .footer {
+
+
+     padding-right: 30px;
+
+
+     padding-left: 30px;
+
+
+}
+
+
+ .pt-pricing-content-align-left .pt-pricing.style-2 .pt-pricing-item .body ul li, .pt-pricing-content-align-left .pt-pricing.style-4 .pt-pricing-item .body ul li {
+
+
+     padding-left: 30px;
+
+
+}
+
+
+ .pt-pricing-content-align-right .pt-pricing.style-2 .pt-pricing-item .body ul li, .pt-pricing-content-align-right .pt-pricing.style-4 .pt-pricing-item .body ul li {
+
+
+     padding-right: 30px;
+
+
+}
+
+
+ .pt-pricing-content-align-left .pt-pricing.style-3 .pt-pricing-item .header:after {
+
+
+     -webkit-transform: translateX( -80%);
+
+
+     transform: translateX( -80%);
+
+
+}
+
+
+ .pt-pricing-content-align-right .pt-pricing.style-3 .pt-pricing-item .header:after {
+
+
+     -webkit-transform: translateX( 80%);
+
+
+     transform: translateX( 80%);
+
+
+}
+
+
+ .pt-pricing-content-align-left .pt-pricing.style-3 .pt-pricing-item:hover .header:after, .pt-pricing-content-align-right .pt-pricing.style-3 .pt-pricing-item:hover .header:after {
+
+
+     -webkit-transform: translateX( 0%);
+
+
+     transform: translateX( 0%);
+
+
+}
+
+
+ .pt-pricing-content-align-left .pt-pricing.style-1 .pt-pricing-item .header:after, .pt-pricing-content-align-right .pt-pricing.style-1 .pt-pricing-item .header:after, .pt-pricing-content-align-left .pt-pricing.style-1 .pt-pricing-item .pt-pricing-tag:after, .pt-pricing-content-align-right .pt-pricing.style-1 .pt-pricing-item .pt-pricing-tag:after, .pt-pricing-content-align-left .pt-pricing.style-2 .pt-pricing-item .pt-pricing-tag:after, .pt-pricing-content-align-right .pt-pricing.style-2 .pt-pricing-item .pt-pricing-tag:after {
+
+
+     margin: 0;
+
+
+     width: 100%;
+
+
+}
+
+
+/* Button Alignment */
+
+
+ .pt-pricing-button-align-right .pt-pricing.style-1 .footer, .pt-pricing-button-align-right .pt-pricing.style-2 .footer, .pt-pricing-button-align-right .pt-pricing.style-3 .footer, .pt-pricing-button-align-right .pt-pricing.style-4 .footer {
+
+
+     text-align: right;
+
+
+}
+
+
+ .pt-pricing-button-align-center .pt-pricing.style-1 .footer, .pt-pricing-button-align-center .pt-pricing.style-2 .footer, .pt-pricing-button-align-center .pt-pricing.style-3 .footer, .pt-pricing-button-align-center .pt-pricing.style-4 .footer {
+
+
+     text-align: center;
+
+
+}
+
+
+ .pt-pricing-button-align-left .pt-pricing.style-1 .footer, .pt-pricing-button-align-left .pt-pricing.style-2 .footer, .pt-pricing-button-align-left .pt-pricing.style-3 .footer, .pt-pricing-button-align-left .pt-pricing.style-4 .footer {
+
+
+     text-align: left;
+
+
+}
+
+
+ .pt-pricing-content-align-center.pt-pricing-button-align-right .pt-pricing.style-2 .footer, .pt-pricing-content-align-center.pt-pricing-button-align-right .pt-pricing.style-4 .footer {
+
+
+     padding-right: 30px;
+
+
+}
+
+
+ .pt-pricing-content-align-center.pt-pricing-button-align-left .pt-pricing.style-2 .footer, .pt-pricing-content-align-center.pt-pricing-button-align-left .pt-pricing.style-4 .footer {
+
+
+     padding-left: 30px;
+
+
+}
+
+
+/* comman */
+
+
+ .flex-container {
+
+
+     display: flex;
+
+
+     flex-wrap: wrap;
+
+
+}
+
+
+ .flex-container > .pt-pricing {
+
+
+     width:31.4%;
+
+
+    /*line-height: 30px;
+
+
+    */
+
+
+     margin: 10px;
+
+
+}
+
+
+/*general css */
+
+
+ .pt-pricing .pt-pricing-item .body{
+
+
+}

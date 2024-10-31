@@ -1,0 +1,1103 @@
+/**
+*=============================================================
+    * PT Addons Elementor Admin Settings Page Styles
+*============================================================= */
+
+
+/* General Style */
+
+.pt-admin-block-content i {
+    color: #3d8fb8;
+}
+
+.social-icon i:hover {
+    color: blue;
+}
+
+.pt-settings-wrap {
+    padding: 15px;
+}
+
+.pt-header-bar {
+    height: auto;
+    padding: 10px;
+    background: #fff;
+    -webkit-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 8px 21px 0px rgba(36, 39, 50, 0.08);
+    box-shadow: 0px 8px 21px 0px rgba(36, 39, 50, 0.08);
+}
+
+.pt-settings-wrap .pt-header-left {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.pt-header-bar .pt-admin-logo-inline {
+    width: 40px;
+    padding: 5px 15px;
+    margin-right: 25px;
+}
+
+.pt-header-bar .pt-admin-logo-inline img {
+    width: 100%;
+}
+
+.pt-header-bar .title {
+    font-size: 22px;
+    color: #3f3f3f;
+    font-weight: 500;
+    margin: 0px;
+    line-height: 2.5;
+}
+
+.pt-header-left,
+.pt-header-right {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+
+.pt-header-right {
+    text-align: right;
+}
+
+.pt-settings-tabs {
+    padding-top: 10px;
+}
+
+.pt-settings-tab h4 {
+    font-size: 22px;
+}
+
+.pt-settings-tab p {
+    font-size: 13px;
+    color: #707070;
+    margin: 0px 0 20px 0;
+    line-height: 21px;
+}
+
+.pt-settings-tabs ul {
+    width: 100%;
+    height: auto;
+    margin: 25px 0px 0px 0px;
+}
+
+.pt-settings-tabs ul li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.pt-settings-tabs ul li a {
+    padding: 19px 22px;
+    background: #f8fafb;
+    color: #252525;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 5px;
+    display: block;
+    border-radius: 4px 4px 0 0;
+    border-top: 3px solid #bbb;
+}
+
+.pt-settings-tabs ul li a img {
+    opacity: 0.6;
+}
+
+.pt-settings-tabs ul li a.active img {
+    opacity: 1;
+}
+
+.pt-settings-tabs ul li a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.pt-settings-tabs ul li a img {
+    width: 18px;
+    margin: 0 15px -3px 0;
+}
+
+.pt-settings-tab {
+    background: #fff;
+    padding: 15px 25px;
+    border-top: none;
+    position: relative;
+}
+
+.pt-settings-tabs ul li.ui-tabs-active a {
+    background: #fff;
+    outline: none;
+    box-shadow: none;
+    color: #343434;
+}
+
+p.pt-el-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    margin: 0.5em;
+}
+
+.pt-settings-tab p.pt-elements-control-notice {
+    color: #444;
+    font-size: 16px;
+    font-style: italic;
+    padding: 10px;
+}
+
+.pt-form-control {
+    width: 100%;
+}
+
+textarea.pt-form-control {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5d5d5d;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding: 15px 0px;
+}
+
+.col-full {
+    width: 100%;
+    height: auto;
+}
+
+.col-half {
+    width: 61%;
+    height: auto;
+}
+
+.col-one-third {
+    width: 32%;
+    height: auto;
+}
+
+
+/* Checkbox Style */
+
+.pt-checkbox-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.pt-checkbox {
+    display: flex;
+    flex-basis: 300px;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 18px 0px rgba(0, 4, 32, 0.08);
+}
+
+.pt-checkbox.checkbox-toggle-all {
+    border-radius: 100px;
+    padding: 12px 25px;
+    flex-basis: 270px;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.pt-checkbox input[type='checkbox'] {
+    visibility: hidden;
+    display: none;
+}
+
+.pt-checkbox label {
+    width: 2em;
+    height: 1em;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+
+.pt-checkbox label:before {
+    content: '';
+    position: absolute;
+    width: 2em;
+    height: 1em;
+    left: 0.1em;
+    transition: background 0.1s 0.1s ease;
+    background: #cbcfd0;
+    border: 1px solid #cbcfd0;
+    border-radius: 50px;
+}
+
+.pt-checkbox label:after {
+    content: '';
+    position: absolute;
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 100%;
+    left: 0.2em;
+    top: 0.14em;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 0 5px #fcfff4 inset;
+    background: #cbcfd0;
+    z-index: 2;
+    animation: switch-off 0.3s ease-out;
+}
+
+.pt-checkbox input[type='checkbox']:checked+label::before {
+    background: #8860d0;
+    border: #8860d0;
+}
+
+.pt-checkbox input[type='checkbox']:checked+label::after {
+    left: 1.2em;
+    background: #ffffff;
+    animation: switch-on 0.3s ease-out;
+}
+
+@keyframes switch-on {
+    50% {
+        transform: scaleX(1.3);
+    }
+}
+
+@keyframes switch-off {
+    50% {
+        transform: scaleX(1.3);
+    }
+}
+
+
+/* Pt Tab Toggles */
+
+.pt-settings-tab {
+    display: none;
+}
+
+.pt-settings-tab.active {
+    display: block;
+}
+
+.pt-tabs li a.active {
+    background-color: #fff;
+    color: #5680e9;
+    border-top: 3px solid #2d87b7;
+}
+
+
+/* Footer Style */
+
+.pt-settings-footer {
+    padding: 20px 25px 15px 25px;
+    background: #fff;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pt-settings-footer .submit {
+    padding: 0px;
+}
+
+.pt-settings-footer p.submit {
+    margin-top: 0px;
+}
+
+.pt-settings-tab img {
+    max-width: 100%;
+}
+
+.button.pt-btn {
+    background-color: #5ab9ea;
+    color: #fff;
+    padding: 6px 20px;
+    border: none;
+    box-shadow: none;
+    font-size: 14px;
+    height: auto;
+    text-transform: uppercase;
+    text-shadow: none;
+    letter-spacing: 0.05em;
+}
+
+.pt-save-btn-wrap {
+    margin: 30px 0 20px;
+}
+
+.pt-save-btn-wrap .pt-btn {
+    background-color: #5ab9ea;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.pt-save-btn-wrap .pt-btn:hover,
+.pt-save-btn-wrap .pt-btn:focus {
+    background-color: #5680e9;
+    color: #fff;
+}
+
+.pt-btn.pt-demo-btn {
+    background-color: #8860d0;
+    color: #fff;
+}
+
+.pt-btn.pt-demo-btn:hover,
+.pt-btn.pt-demo-btn:focus {
+    background-color: #ff0188;
+    color: #fff;
+}
+
+.pt-btn.pt-license-btn {
+    background-color: #84ceeb;
+}
+
+.pt-btn.pt-license-btn:hover,
+.pt-btn.pt-license-btn:focus {
+    background-color: rgb(36, 173, 228);
+}
+
+.pt-btn.pt-demo-btn,
+.pt-btn.pt-license-btn,
+.pt-btn.pt-review-btn {
+    padding: 10px;
+    display: block;
+    max-width: 250px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#pt-spinner {
+    width: 18px;
+    display: inline-block;
+    float: left;
+    margin: 3px 5px 0 0;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1.2s;
+    -webkit-animation-name: rotate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-transition-property: -moz-transform;
+    -moz-animation-name: rotate;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    transition-property: transform;
+    animation-name: rotate;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotate {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.premium-elements-title {
+    margin: 50px 0 30px;
+}
+
+.premium-elements-title img {
+    width: 75px;
+    float: left;
+}
+
+.premium-elements-title .section-title {
+    color: #5ab9ea;
+    margin: 35px 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border-bottom: 6px double #5ab9ea;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.go-premium .pt-btn.pt-license-btn {
+    background: linear-gradient(-30deg, #8860d0, #c1c8e4);
+    margin-top: 30px;
+    transition: all 0.3s ease;
+}
+
+.go-premium .pt-btn.pt-license-btn:hover {
+    opacity: 0.85;
+}
+
+.go-premium img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    float: right;
+}
+
+.pt-notice {
+    background-color: #f7f6d4;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+    max-width: 90%;
+    color: #9a7223;
+}
+
+.pt-notice h5 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.pt-elements-list h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #5ab9ea;
+    margin: 2em 10px 1em;
+    font-weight: 500;
+}
+
+
+/* Header Button */
+
+.pt-header-bar .pt-btn,
+.pt-save-btn-wrap .pt-btn {
+    border-radius: 3px;
+    background-image: -moz-linear-gradient(-169deg, rgb(146, 113, 255) 0%, rgb(87, 37, 255) 100%);
+    background-image: -webkit-linear-gradient(-169deg, #5ab9ea 0%, rgb(56, 165, 219) 100%);
+    background-image: -ms-linear-gradient(-169deg, rgb(146, 113, 255) 0%, rgb(87, 37, 255) 100%);
+    width: 160px;
+    height: 50px;
+    transition: all 300ms ease-in-out;
+}
+
+.pt-admin-block-content .ea-button {
+    font-size: 13px;
+    border-radius: 3px;
+    background-image: -webkit-linear-gradient(-169deg, #5ab9ea 0%, rgb(56, 165, 219) 100%);
+    background-image: -ms-linear-gradient(-169deg, rgb(146, 113, 255) 0%, rgb(87, 37, 255) 100%);
+    -webkit-box-shadow: 0px 14px 15px 0px rgba(0, 5, 41, 0.08);
+    box-shadow: 0px 14px 15px 0px rgba(0, 5, 41, 0.08);
+    box-shadow: 0px 14px 15px 0px rgba(0, 5, 41, 0.08);
+    color: #fff;
+    display: inline-block;
+    padding: 12px 22px 14px;
+    text-decoration: none;
+    line-height: 1;
+    transition: all 0.3s;
+}
+
+.ea-button:hover {
+    opacity: 0.85;
+}
+
+
+/* Admin Blocks */
+
+.pt-admin-general-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.pt-admin-general-wrapper .pt-admin-general-inner {
+    max-width: 70em;
+    height: auto;
+    flex: 1 1 70%;
+}
+
+.pt-admin-general-wrapper .pt-sidebar {
+    flex: 1 1 200px;
+    padding: 20px;
+}
+
+.pt-admin-block-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: -10px;
+}
+
+.pt-admin-block-wrapper .pt-admin-block {
+    background-color: #fff;
+    flex: 1 1 auto;
+    min-width: 250px;
+    width: 300px;
+    margin: 10px 10px 25px 10px;
+    box-shadow: 0px 8px 38px 0px rgba(16, 16, 16, 0.07);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pt-align-left {
+    text-align: left;
+}
+
+.pt-admin-block-large,
+.pt-sidebar-widget {
+    background: #fff;
+    margin-bottom: 25px;
+    padding: 1em;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pt-admin-block-wrapper .pt-admin-block.pt-admin-block-banner {
+    padding: 8px;
+}
+
+.pt-admin-block-header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 30px 0 0 25px;
+}
+
+.pt-admin-block-header-icon {
+    height: 40px;
+    width: 40px;
+    background: #24a8ca2b;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.pt-admin-block-header-icon svg {
+    /* width: 80%;
+     display: block;
+     margin: 0 auto;
+     */
+}
+
+.pt-admin-block-review .pt-admin-block-header-icon svg {
+    /* width: 100%;
+     */
+}
+
+.pt-admin-block-support .pt-admin-block-header-icon {
+    /* width: 30px;
+     */
+}
+
+.pt-settings-tab a {
+    color: #5ab9ea;
+}
+
+.pt-settings-tab a:hover {
+    color: #84ceeb;
+}
+
+.pt-settings-tab .pt-admin-title,
+.pt-sidebar .pt-admin-title {
+    margin: 0.7em 0 1em;
+    padding: 0 1.26582em;
+    font-size: 15px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333333;
+}
+
+.pt-admin-block-content {
+    overflow: hidden;
+    position: relative;
+    padding: 1em 1.5em 1.5em;
+    background-color: #fff;
+    padding-left: 85px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+.pt-preview-img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+    transition: all 0.3s;
+}
+
+.pt-preview-img:hover {
+    opacity: 0.9;
+}
+
+.pt-admin-sidebar {
+    flex: 1 1 200px;
+    padding: 20px;
+}
+
+.pt-sidebar-block {
+    margin: calc(10% + 1.5em) auto;
+}
+
+.pt-sidebar-block .pt-admin-sidebar-logo {
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.pt-sidebar-block .pt-admin-sidebar-logo>img,
+.pt-sidebar-block .pt-admin-sidebar-logo>svg {
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+}
+
+.pt-admin-sidebar-cta {
+    text-align: center;
+}
+
+.pt-admin-sidebar-cta a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px auto;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 5px 23px 0px rgba(5, 9, 54, 0.12);
+    background: #ffffff;
+    padding: 15px 35px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+
+/* Facebook Settings CSS */
+
+#social-networks input {
+    padding: 10px;
+}
+
+#ptFBbtn,
+#ptFBbtnOwnApp {
+    cursor: pointer;
+    display: none;
+    /* color: red;
+     */
+}
+
+.page-list-with-access>ul {
+    list-style: none;
+}
+
+.page-list-with-access>ul>li {
+    display: block;
+    cursor: pointer;
+    padding: 5px 0px;
+}
+
+.pt-fb-own-app-settings {
+    display: none;
+}
+
+.pt-fb-own-app-settings.pt-active,
+#ptFBbtn.pt-active,
+#ptFBbtnOwnApp.pt-active {
+    display: block;
+}
+
+.warning {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+    color: #d8000c;
+    background-color: #ffbaba;
+    overflow: hidden;
+}
+
+.warning>* {
+    float: left;
+}
+
+#pt_plugins_versions {
+    height: 36px;
+}
+
+.pt-notice-text {
+    padding-left: 10px;
+}
+
+.pt-el-title {
+    position: relative;
+}
+
+.pt-checkbox {
+    overflow: hidden;
+}
+
+label.pt-get-pro+.pt-el-title {
+    padding-left: 25px;
+}
+
+.pro-label {
+    font-size: 11px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    position: absolute;
+    top: -14px;
+    left: -45px;
+    width: 80px;
+    background-image: -moz-linear-gradient(-122deg, #5ab9ea 0%, rgb(56, 165, 219) 100%);
+    background-image: -webkit-linear-gradient(-122deg, rgb(243, 3, 114) 0%, rgb(37, 59, 255) 100%);
+    background-image: -ms-linear-gradient(-122deg, rgb(146, 113, 255) 0%, rgb(54, 166, 194) 100%);
+    box-shadow: 0px 3px 7px 0px rgba(0, 5, 41, 0.1);
+    color: #fff;
+}
+
+#toplevel_page_pt-settings.current .wp-menu-image img {
+    opacity: 1;
+}
+
+.pt-admin-block-content a {
+    color: #8860d0;
+}
+
+.elements-global-control-wrap {
+    text-align: center;
+}
+
+.pt-checkbox-container.elements-global-control-wrap .pt-checkbox.checkbox-toggle-all {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.pt-checkbox-container.elements-global-control-wrap .pt-checkbox label:after {
+    width: 1.8em;
+    height: 1.8em;
+}
+
+.pt-checkbox-container.elements-global-control-wrap .pt-checkbox input[type='checkbox']:checked+label::after {
+    left: 2.2em;
+}
+
+.pt-checkbox-container.elements-global-control-wrap .pt-checkbox label,
+.pt-checkbox-container.elements-global-control-wrap .pt-checkbox label:before {
+    width: 100px;
+    height: 2em;
+}
+
+.pt-checkbox-container.elements-global-control-wrap .pt-checkbox.checkbox-toggle-all {
+    flex-basis: 150px;
+    padding: 10px 20px 5px;
+}
+
+.elements-global-control-wrap h4 {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    color: #333333;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.elements-controls-wrap.elements-global-control-wrap p {
+    font-size: 14px;
+    color: #707070;
+}
+
+.btn-gradient {
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 2px 10px #999;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 15px 25px;
+    background-size: 250% 100% !important;
+    background-position: 100% 0% !important;
+}
+
+.btn-gradient.pt-global-control-disable {
+    background: -moz-linear-gradient(45deg, #ff000069, #ff0000);
+    background: -webkit-linear-gradient(45deg, #ff000069, #ff0000);
+    background: linear-gradient(45deg, #ff000069, #ff0000);
+}
+
+.btn-gradient.pt-primary,
+.button.pt-btn.btn-gradient.pt-primary,
+#api-keys .button.button-primary {
+    background: -moz-linear-gradient(45deg, rgb(243, 3, 114) 0%, rgb(37, 59, 255) 110%);
+    background: -webkit-linear-gradient(45deg, rgb(243, 3, 114) 0%, rgb(37, 59, 255) 110%);
+    background: linear-gradient(45deg, rgb(243, 3, 114) 0%, rgb(37, 59, 255) 110%);
+}
+
+.btn-gradient:hover,
+.button.pt-btn.btn-gradient:hover,
+#api-keys .button.button-primary:hover {
+    background-position: 0% !important;
+    box-shadow: 0 0px 12px #bbb;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+.btn-gradient:active,
+#api-keys .button.button-primary:active {
+    transform: translateY(0);
+    background-position: 50% !important;
+}
+
+.pt-btn-group button {
+    border: 0px solid;
+    color: #fff;
+    padding: 13px 25px;
+    border-radius: 3px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.btn-gradient:focus span {
+    color: #fff;
+}
+
+
+/* New PT */
+
+.pt-admin-block.pt-admin-block-banner {
+    width: 100%;
+}
+
+.pt-admin-block-contribution .social-icon {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.pt-admin-block-contribution .social-icon a {
+    color: #0073aa;
+}
+
+.pt-admin-block-review .social-icon {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.pt-admin-block-review i.fa.fa-twitter-square {
+    color: #1da1f2;
+}
+
+.pt-admin-block-review i.fa.fa-facebook-square {
+    color: #3b5998;
+}
+
+.pt-admin-block-review i.fa.fa-google-plus-square {
+    color: #dc4a38;
+}
+
+.pt-admin-block-review i.fa.fa-linkedin-square {
+    color: #0177b5;
+}
+
+.pt-admin-block-review i.fa.fa-pinterest-square {
+    color: #bd081c;
+}
+
+.alignright {
+    float: left;
+    width: 90%;
+}
+
+.sidebar.alignright.blue {
+    padding: 30px;
+    background-color: #007fc0;
+}
+
+#mc_embed_signup {
+    background: #007fc0 !important;
+}
+
+.blue h2 {
+    color: #fff;
+}
+
+.blue label {
+    color: #fff;
+}
+
+.blue p {
+    color: #fff;
+}
+
+#mc_embed_signup .button {
+    background-color: #ed0775 !important;
+    border-color: #ed0775 !important;
+}
+
+.indicates-required {
+    color: #fff;
+}
+
+div#mc_embed_signup_scroll a {
+    color: #fff;
+}
+
+.pt-save-btn-wrap .button-primary {
+    border-radius: 3px;
+    background-image: -moz-linear-gradient(-169deg, rgb(146, 113, 255) 0%, rgb(87, 37, 255) 100%);
+    background-image: -webkit-linear-gradient(-169deg, #24a8ca 0%, #248ea9 100%);
+    background-image: -ms-linear-gradient(-169deg, rgb(146, 113, 255) 0%, rgb(87, 37, 255) 100%);
+    font-size: 14px;
+    text-transform: uppercase;
+    text-shadow: none;
+    letter-spacing: 0.05em;
+    width: 150px;
+    height: 45px;
+    transition: all 300ms ease-in-out;
+    border-color: #fff !important;
+    box-shadow: none !important;
+}
+
+.pt-admin-block.pt-admin-block-banner {
+    background: radial-gradient(at top center, #0074b8 0%, #4b95b7 100%);
+    padding: 15% 4%;
+    text-decoration: none;
+}
+
+.pt-admin-block.pt-admin-block-banner:hover {
+    opacity: 0.7;
+}
+
+.pt-admin-block.pt-admin-block-banner h1 {
+    margin: 30px 10px;
+}
+
+.pt-admin-block.pt-admin-block-banner h1,
+.pt-admin-block.pt-admin-block-banner h1 a {
+    font-size: 38px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pt-admin-block.pt-admin-block-banner h4 {
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px 10px;
+}
+
+.pt-admin-block.pt-admin-block-banner p {
+    font-size: 20px;
+    text-align: center;
+    color: #cbcfd0;
+    line-height: 35px;
+}
+
+.pt-admin-block.pt-admin-block-banner p strong {
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.pt-elements-page-title .pt-btn-group,
+.pt-elements-page-title p {
+    margin: 0em 10px 1em;
+}
+
+.pt-settings-tabs {
+    width: 100%;
+    float: left;
+}
+
+.pt-sidebar {
+    float: left;
+    width: 28%;
+    margin-left: 2%;
+    margin-top: 90px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 8px 21px 0px rgba(36, 39, 50, 0.08);
+    box-shadow: 0px 8px 21px 0px rgba(36, 39, 50, 0.08);
+    padding-bottom: 50px;
+}
+
+.pt-admin-block-header-icon img {
+    max-width: 100%;
+}
+
+.pt-sidebar .pt-admin-block-header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 30px 0 0 30px;
+}
+
+.pt-sidebar .pt-admin-block-content {
+    overflow: hidden;
+    position: relative;
+    padding: 1em 1.5em 1.5em;
+    background-color: #fff;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+.sidebar.alignright.blue {
+    margin-top: 20px;
+}
+
+button.button.pt-btn.btn-gradient.pt-primary.js-pt-settings-save:visited {
+    color: #fff !important;
+}
+
+.wp-core-ui .button:focus {
+    color: #fff !important;
+}
+
+@media (max-width: 767px) {
+    .pt-settings-wrap form,
+    .pt-settings-wrap .pt-sidebar {
+        float: none;
+        width: 100%;
+    }
+}
